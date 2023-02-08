@@ -46,9 +46,9 @@ function NavbarDark() {
         </li>
 
         <li className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm">
-          <a href={"/Manifesto"}>
+          <Link href={"/Manifesto"}>
             <span>Manifesto</span>
-          </a>
+          </Link>
         </li>
 
         <li className="bg-[#020726] rounded-md py-1 px-5 font-poppins text-sm flex items-center">
