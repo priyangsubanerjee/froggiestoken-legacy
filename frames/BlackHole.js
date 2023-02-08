@@ -39,7 +39,7 @@ function BlackHole() {
         </div>
         <div className="border h-20 border-slate-300 flex items-center overflow-hidden">
           <div className="w-[30%]">
-            <img src="/images/interstellar.png" alt="" />
+            <img src="/images/interstellar.png" className="-mt-5" alt="" />
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">interstellar</h1>
@@ -50,7 +50,7 @@ function BlackHole() {
         </div>
         <div className="border h-20 border-slate-300 flex items-center  overflow-hidden">
           <div className="w-[30%]">
-            <img src="/images/manifesto.png" alt="" />
+            <img src="/images/manifesto.png" className="mt-5" alt="" />
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">Manifesto</h1>
@@ -61,7 +61,7 @@ function BlackHole() {
         </div>
         <div className="border h-20 border-slate-300 flex items-center  overflow-hidden">
           <div className="w-[30%]">
-            <img src="/images/manifesto.png" alt="" />
+            <img src="/images/astronomics.png" alt="" />
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">Astronomics</h1>

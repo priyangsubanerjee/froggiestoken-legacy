@@ -3,13 +3,12 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
-function Navbar() {
-  const [show, setShow] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
+function NavbarDark() {
+  const [show, setShow] = useState(true);
 
   const controlNavbar = () => {
     scrollY = document.getElementById("scrollContent").scrollTop;
-    if (scrollY > lastScrollY) {
+    if (scrollY > 0) {
       setShow(false);
     } else {
       setShow(true);
@@ -35,20 +34,20 @@ function Navbar() {
       } inset-x-0 transition-all`}
     >
       <div>
-        <img src="/images/logoPrimary.png" className="w-28" alt="" />
+        <img src="/images/logoPrimary.svg" className="w-28" alt="" />
       </div>
       <ul className="ml-auto text-white flex space-x-4">
         <li className="bg-[#020726] rounded-md py-1 px-4 flex items-center">
-          <span>Everlost</span>
+          <img src="/images/everlostLight.svg" alt="" />
         </li>
         <li className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm">
           <span>interstellar</span>
         </li>
 
         <li className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm">
-          <Link href={"/Manifesto"}>
+          <a href={"/Manifesto"}>
             <span>Manifesto</span>
-          </Link>
+          </a>
         </li>
         <li className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm">
           <span>Buy</span>
@@ -89,4 +88,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarDark;
