@@ -21,7 +21,7 @@ function Team() {
         </span>{" "}
         lower gravity and increase lift off.
       </p>
-      <div className="grid grid-cols-5 mt-10 gap-0 place-content-start cursor-pointer">
+      <div className="grid grid-cols-3 w-auto lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
         <div className="relative h-40 group">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img src="/images/crazyx.png" className="absolute top-0" alt="" />

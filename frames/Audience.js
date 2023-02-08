@@ -6,18 +6,18 @@ import React from "react";
 
 function Audience() {
   return (
-    <div className="w-[1000px]">
+    <div className="">
       <h2 className=" text-primaryGrey text-sm font-medium">AUDIENCE</h2>
       <div className="relative">
-        <h1 className="text-6xl whitespace-nowrap font-semibold text-white leading-[1.3] uppercase">
+        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase">
           TEAM IS CONSTANTLY
         </h1>
-        <h1 className="text-6xl whitespace-nowrap font-semibold text-white leading-[1.3] uppercase">
+        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase">
           BUILDING; WHATS NEXT?
         </h1>
       </div>
 
-      <div className="deadlineScrollView h-[300px] w-[600px] overflow-auto mt-16 space-y-5">
+      <div className="deadlineScrollView h-[300px] w-full lg:w-[600px] overflow-auto mt-16 space-y-5">
         <Completed name="P2E Beta testing" date="16th Jan 2023" />
         <Completed
           name="Migration to upgraded BSC contract"

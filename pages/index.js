@@ -1,8 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
-import Navbar from "@/components/Navbar";
+import NavbarDark from "@/components/NavbarDark";
 import Vector from "@/components/Vector";
 import ContentBox from "@/components/ContentBox";
 import { useState } from "react";
@@ -16,10 +12,10 @@ export default function Home() {
   const [active, setActive] = useState(1);
   return (
     <div className="h-screen bg-primaryBg overflow-hidden">
-      <Navbar />
+      <NavbarDark />
       <Vector />
       <NavigationBars active={active} totalBars={4} />
-      <div className="overflow-auto fixed inset-0 scroll-smooth snap-y h-full w-full z-0 snap-mandatory">
+      <div className="overflow-auto fixed inset-0 scroll-smooth snap-x lg:snap-y h-full w-full z-0 snap-mandatory flex lg:block">
         <ContentBox count={1} active={active} setActive={setActive}>
           <AboutUs />
         </ContentBox>
