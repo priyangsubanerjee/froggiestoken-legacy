@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# frog-project
 
-## Getting Started
+built the front-end for a freelance client "froggies" for their crypto project
+The website is built with React for Froggies crypto project, it consists of the home page, careers page, career specific page, partners page, tokenNomics page, FAQ and the Manifesto Page.
+Upon clicking on "intersteallar" in the navbar a modal opens up with various options as per the client's requirement and each of it routing it to a specific page.
 
-First, run the development server:
+PS: the backend is being handled by the client's teams after setting up the server and some work on the dns the website would be live on the current domain https://www.froggiestoken.com/ by may of 2023.
+Till then I'm attaching the deployed front-end link and some screenShots:)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Home page section 1 =>
+![Homepage section 1](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674814068/frogHome1_uoeue1.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+HomePage section 2 =>
+![Homepage section 2](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815068/homesec2_wwb3yr.jpg)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+HomePage section 4 =>
+![Homepage section 4](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815067/home4_v68um1.jpg)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+careers page => url = /careers
+![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815066/careers_uju68u.jpg)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+careers page again => url = /careers
+![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674818823/carer2_sjrgiv.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+manifesto Page => url = /manifesto
+![manifesto page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815063/manifesto_tops8z.jpg)
 
-## Learn More
+careers specific page => url = /careers/jobname
+![career specific page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815137/carerspec1_bovxkn.jpg)
 
-To learn more about Next.js, take a look at the following resources:
+career specific page again => url = /careers/jobname
+![career specific page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815138/carerspec2_lyiqsj.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+FAQ page => url =/faq
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![FAQ page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815136/faq_zhfngj.jpg)
 
-## Deploy on Vercel
+The intersteallar Modal => (opens upon clicking intersteallar in the navbar)
+<img src="https://media.giphy.com/media/zw2zUjdRcdpKXdEMPP/giphy.gif" alt="example gif" title="intersteallar modal">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Orbiting P2E you get this in the modal of intersteallar (present on the navbar)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Orbiting page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815068/p2e_faapql.jpg)
