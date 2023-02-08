@@ -73,7 +73,7 @@ function BlackHole() {
       </div>
       <div className="mt-16 pointer-events-none">
         <img
-          className=" select-none pointer-events-none"
+          className="cursor-pointer select-none pointer-events-none"
           src="/images/borderboxSS.png"
           alt=""
         />
