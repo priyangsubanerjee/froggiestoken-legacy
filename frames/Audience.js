@@ -1,4 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import Completed from "@/components/events/Completed";
+import InProgress from "@/components/events/inProgress";
+import ToCome from "@/components/events/toCome";
 import React from "react";
 
 function Audience() {
@@ -15,70 +18,53 @@ function Audience() {
       </div>
 
       <div className="deadlineScrollView h-[300px] w-[600px] overflow-auto mt-16 space-y-5">
-        <div className="flex items-center space-x-4 px-4">
-          <div>
-            <img src="/images/greenCheck.png" alt="" />
-          </div>
-          <div>
-            <h1 className="font-poppins text-white line-through">
-              Migrate successfully to BSC
-            </h1>
-            <p className="text-sm text-secondaryGrey">15th Jan 2023</p>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4 px-4">
-          <div>
-            <img src="/images/greenCheck.png" alt="" />
-          </div>
-          <div>
-            <h1 className="font-poppins text-white line-through">
-              Launch this amazing website
-            </h1>
-            <p className="text-sm text-secondaryGrey">15th Jan 2023</p>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4 px-4">
-          <div>
-            <img src="/images/yellowCheck.png" alt="" />
-          </div>
-          <div>
-            <h1 className="font-poppins text-white">
-              P2E mobile and wallet connect compatibility
-            </h1>
-            <p className="text-sm text-secondaryGrey">15th Jan 2023</p>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4 px-4">
-          <div>
-            <img src="/images/yellowCheck.png" alt="" />
-          </div>
-          <div>
-            <h1 className="font-poppins text-white">
-              Our very own staking platform
-            </h1>
-            <p className="text-sm text-secondaryGrey">15th Jan 2023</p>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4 px-4">
-          <div>
-            <img src="/images/grayCheck.png" alt="" />
-          </div>
-          <div>
-            <h1 className="font-poppins text-white">
-              Beginning of development of our entertainment platform
-            </h1>
-            <p className="text-sm text-secondaryGrey">15th Jan 2023</p>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4 px-4">
-          <div>
-            <img src="/images/grayCheck.png" alt="" />
-          </div>
-          <div>
-            <h1 className="font-poppins text-white">Next top 50 CEX listing</h1>
-            <p className="text-sm text-secondaryGrey">15th Jan 2023</p>
-          </div>
-        </div>
+        <Completed name="P2E Beta testing" date="16th Jan 2023" />
+        <Completed
+          name="Migration to upgraded BSC contract"
+          date="16th Jan 2023"
+        />
+        <Completed
+          name="CoinMarketCap and Coingecko listing g"
+          date="16th Jan 2023"
+        />
+        <Completed
+          name="Succesfull launch and adaptation of Ambassador program"
+          date="16th Jan 2023"
+        />
+        <Completed name="Create our 3D mascot: Froggie" date="16th Jan 2023" />
+        <InProgress
+          name=" P2E Mobile comparability and Connect Wallet integration"
+          date="16th Jan 2023"
+        />
+        <InProgress
+          name="Milestone: 2,000 $FRGST holders"
+          date="16th Jan 2023"
+        />
+        <InProgress name="Kill one zero" date="16th Jan 2023" />
+        <InProgress name="Staking contract development" date="16th Jan 2023" />
+        <InProgress
+          name="Increasing marketing opportunities"
+          date="16th Jan 2023"
+        />
+        <InProgress name="Increase Ambassador Program" date="16th Jan 2023" />
+        <InProgress name="Burn events" date="16th Jan 2023" />
+        <InProgress name="Video's featuring our mascot" date="16th Jan 2023" />
+        <InProgress
+          name="Find more meaningful partnerships"
+          date="16th Jan 2023"
+        />
+        <ToCome name="Testing of staking platform" date="16th Jan 2023" />
+        <ToCome name="Continued development of P2E" date="16th Jan 2023" />
+        <ToCome
+          name="Start planning on an NFT usecase collection"
+          date="16th Jan 2023"
+        />
+        <ToCome name="Release Staking Platform" date="16th Jan 2023" />
+        <ToCome
+          name="Listing on a CEX that fits our needs"
+          date="16th Jan 2023"
+        />
+        <ToCome name="More (list will be updated)" date="16th Jan 2023" />
       </div>
 
       <div className="flex items-baseline mt-16 whitespace-nowrap">
