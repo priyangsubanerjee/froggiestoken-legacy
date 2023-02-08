@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 function Team() {
   return (
@@ -9,7 +10,8 @@ function Team() {
       <h1 className="text-7xl font-semibold text-white leading-[1.3] uppercase">
         The Cosmic Crew
       </h1>
-      <p className="text-sm text-white leading-6 mt-4">
+
+      <p className="text-sm text-white leading-6 mt-4 font-poppins">
         Meet the main people behind Froggies{" "}
         <span className="relative h-10 inline-flex items-center w-56 -mr-12 ml-1">
           <img
@@ -21,6 +23,7 @@ function Team() {
         </span>{" "}
         lower gravity and increase lift off.
       </p>
+
       <div className="grid grid-cols-3 w-auto lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
         <div className="relative h-40 group">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
@@ -29,7 +32,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -42,7 +45,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -59,7 +62,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -76,7 +79,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -93,7 +96,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -110,7 +113,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -127,14 +130,14 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
           </div>
         </div>
         <div className="relative h-40 group">
-          <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
+          <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/paul.png"
               className="absolute top-0 left-0"
@@ -144,14 +147,14 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
           </div>
         </div>
         <div className="relative h-40 group">
-          <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
+          <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/lightns.png"
               className="absolute top-0 left-0"
@@ -161,7 +164,7 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
@@ -178,14 +181,15 @@ function Team() {
             <p className="text-center text-sm text-secondaryGrey">
               Core Member
             </p>
-            <p className="hidden group-hover:block text-center text-[11px] leading-6 p-2">
+            <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
           </div>
         </div>
       </div>
-      <div className="flex items-baseline mt-10 whitespace-nowrap">
+
+      <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins">
         <span>Bright Future for $FRGST .</span>
         <div className="w-20 h-[1px] bg-white"></div>
         <div className="flex items-center relative text-black w-96 ml-5">

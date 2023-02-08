@@ -8,7 +8,7 @@ function BlackHole() {
       <h1 className="text-7xl font-semibold text-white leading-[1.3]">
         Into the Black hole
       </h1>
-      <p className="text-sm text-white leading-7 mt-4">
+      <p className="text-sm text-white leading-7 mt-4 font-poppins">
         Brave the unknown and embark on a journey into a black hole&apos;s
         embrace to uncover secrets beyond reality. Embrace the darkness and
         <span className="inline-flex items-center relative text-black w-96 ml-3">
@@ -32,7 +32,9 @@ function BlackHole() {
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">BUY</h1>
-            <p className="text-sm text-secondaryGrey">Buy froggies token now</p>
+            <p className="text-sm text-secondaryGrey font-poppins">
+              Buy froggies token now
+            </p>
           </div>
         </div>
         <div className="border h-20 border-slate-300 flex items-center overflow-hidden">
@@ -41,7 +43,9 @@ function BlackHole() {
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">interstellar</h1>
-            <p className="text-sm text-secondaryGrey">Learn more</p>
+            <p className="text-sm text-secondaryGrey font-poppins">
+              Learn more
+            </p>
           </div>
         </div>
         <div className="border h-20 border-slate-300 flex items-center  overflow-hidden">
@@ -50,7 +54,9 @@ function BlackHole() {
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">Manifesto</h1>
-            <p className="text-sm text-secondaryGrey">Outerspace finance</p>
+            <p className="text-sm text-secondaryGrey font-poppins">
+              Outerspace finance
+            </p>
           </div>
         </div>
         <div className="border h-20 border-slate-300 flex items-center  overflow-hidden">
@@ -59,11 +65,13 @@ function BlackHole() {
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">Astronomics</h1>
-            <p className="text-sm text-secondaryGrey">Outerspace finance</p>
+            <p className="text-sm text-secondaryGrey font-poppins">
+              Outerspace finance
+            </p>
           </div>
         </div>
       </div>
-      <div className="flex items-baseline mt-10 whitespace-nowrap uppercase font-bold">
+      <div className="flex items-baseline mt-10 whitespace-nowrap uppercase font-bold font-poppins">
         <span>To the moon and never back .</span>
         <div className="ml-1 w-20 h-[1px] bg-white"></div>
       </div>

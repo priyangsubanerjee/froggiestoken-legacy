@@ -8,7 +8,7 @@ function AboutUs() {
       <h1 className="text-7xl font-semibold text-white leading-[1.3]">
         FROGGIES TO THE SPACE
       </h1>
-      <p className="text-sm text-white leading-6 mt-4">
+      <p className="text-sm text-white leading-7 mt-4 font-poppins">
         We are Froggies, a memecoin launched in November 2021. Flew passed bulls
         and bears, hype and fud.
         <br />
@@ -19,7 +19,7 @@ function AboutUs() {
         an open community and drive a free market. Our team is devoted to
         delivering the best to our holders, and securing a long-term project.
       </p>
-      <div className="flex items-baseline mt-10 whitespace-nowrap">
+      <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins">
         <span>Join us while we build on common goals .</span>
         <div className="w-20 h-[1px] bg-white"></div>
         <div className="flex items-center relative text-black w-44 ml-5">

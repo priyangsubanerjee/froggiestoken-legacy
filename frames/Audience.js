@@ -67,7 +67,7 @@ function Audience() {
         <ToCome name="More (list will be updated)" date="16th Jan 2023" />
       </div>
 
-      <div className="flex items-baseline mt-16 whitespace-nowrap">
+      <div className="flex items-baseline mt-16 whitespace-nowrap font-poppins">
         <span>Ready to see even more ? </span>
         <div className="w-20 h-[1px] bg-white"></div>
         <div className="flex items-center relative text-black w-36 ml-5">

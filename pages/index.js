@@ -15,7 +15,10 @@ export default function Home() {
       <NavbarDark />
       <Vector />
       <NavigationBars active={active} totalBars={4} />
-      <div className="overflow-auto fixed inset-0 scroll-smooth snap-x lg:snap-y h-full w-full z-0 snap-mandatory flex lg:block">
+      <div
+        id="scrollContent"
+        className="overflow-auto fixed inset-0 scroll-smooth snap-x lg:snap-y h-full w-full z-0 snap-mandatory flex lg:block"
+      >
         <ContentBox count={1} active={active} setActive={setActive}>
           <AboutUs />
         </ContentBox>
