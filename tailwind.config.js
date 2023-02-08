@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         primaryBg: "#010417;",
+        primaryBg: "#010417;",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
