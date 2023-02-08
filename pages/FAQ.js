@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Panel from "@/components/faq/panel";
 
 function FAQ() {
-  const [state, setState] = useState(1);
+  const [state, setState] = useState(null);
 
   return (
     <div id="scrollContent" className="h-screen overflow-auto bg-primaryBg">

@@ -33,9 +33,9 @@ function NavbarDark() {
         show ? "opacity-100" : " opacity-0"
       } inset-x-0 transition-all`}
     >
-      <div>
+      <Link href={"/"}>
         <img src="/images/logoPrimary.svg" className="w-28" alt="" />
-      </div>
+      </Link>
       <ul className="ml-auto text-white flex space-x-4">
         <li className="bg-[#020726] rounded-md py-1 px-4 flex items-center">
           <img src="/images/everlostLight.svg" alt="" />

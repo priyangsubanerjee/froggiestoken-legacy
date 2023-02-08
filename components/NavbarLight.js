@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 function NavbarLight() {
@@ -31,9 +32,9 @@ function NavbarLight() {
         show ? "opacity-100" : " opacity-0"
       } inset-x-0 transition-all`}
     >
-      <div>
+      <Link href={"/"}>
         <img src="/images/logoSecondary.svg" className="w-28" alt="" />
-      </div>
+      </Link>
       <ul className="ml-auto text-black flex space-x-4">
         <li className="bg-[#E4E8FF] rounded-md py-1 px-4 flex items-center">
           <img src="/images/everlostDark.svg" alt="" />
