@@ -192,19 +192,24 @@ function Team() {
       <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins">
         <span>Bright Future for $FRGST .</span>
         <div className="w-20 h-[1px] bg-white"></div>
-        <div className="flex items-center relative text-black w-96 ml-5">
-          <div className="flex z-10 items-center font-poppins">
-            <span>Dive into the unknown</span>
-            <iconify-icon className="z-10" icon="ph:arrow-down"></iconify-icon>
+        <a href="#3">
+          <div className="flex items-center relative text-black w-96 ml-5">
+            <div className="flex z-10 items-center font-poppins">
+              <span>Dive into the unknown</span>
+              <iconify-icon
+                className="z-10"
+                icon="ph:arrow-down"
+              ></iconify-icon>
+            </div>
+            <div className="absolute -top-[2px] -left-4 w-auto">
+              <img
+                src="/images/textScribbleVector.png"
+                className="w-56 h-6 z-0"
+                alt=""
+              />
+            </div>
           </div>
-          <div className="absolute -top-[2px] -left-4 w-auto">
-            <img
-              src="/images/textScribbleVector.png"
-              className="w-56 h-6 z-0"
-              alt=""
-            />
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );

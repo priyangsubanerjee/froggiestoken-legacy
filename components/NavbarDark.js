@@ -66,6 +66,9 @@ function NavbarDark() {
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB">
                   Pancakeswap
                 </a>
+                <a href="https://poocoin.app/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f7">
+                  Poocoin
+                </a>
                 <a href="https://www.coinstore.com/#/spot/FRGSTUSDT">
                   Coinstore
                 </a>

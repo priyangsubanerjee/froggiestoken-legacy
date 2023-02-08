@@ -70,19 +70,24 @@ function Audience() {
       <div className="flex items-baseline mt-16 whitespace-nowrap font-poppins">
         <span>Ready to see even more ? </span>
         <div className="w-20 h-[1px] bg-white"></div>
-        <div className="flex items-center relative text-black w-36 ml-5">
-          <div className="flex z-10 items-center font-poppins">
-            <span>Deeper Dive</span>
-            <iconify-icon className="z-10" icon="ph:arrow-down"></iconify-icon>
+        <a href="#4">
+          <div className="flex items-center relative text-black w-36 ml-5">
+            <div className="flex z-10 items-center font-poppins">
+              <span>Deeper Dive</span>
+              <iconify-icon
+                className="z-10"
+                icon="ph:arrow-down"
+              ></iconify-icon>
+            </div>
+            <div className="absolute -top-[2px] -left-4 w-auto">
+              <img
+                src="/images/textScribbleVector.png"
+                className="w-36 h-6 z-0"
+                alt=""
+              />
+            </div>
           </div>
-          <div className="absolute -top-[2px] -left-4 w-auto">
-            <img
-              src="/images/textScribbleVector.png"
-              className="w-36 h-6 z-0"
-              alt=""
-            />
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );
