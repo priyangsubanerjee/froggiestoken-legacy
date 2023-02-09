@@ -50,7 +50,7 @@ function NavbarLight() {
           }}
           className="bg-[#E4E8FF] rounded-md py-1 px-5 flex items-center font-poppins text-sm"
         >
-          <span>interstellar</span>
+          <span>Interstellar</span>
         </li>
 
         <li className="bg-[#E4E8FF] rounded-md py-1 px-5 flex items-center font-poppins text-sm">

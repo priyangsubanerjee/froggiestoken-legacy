@@ -52,7 +52,7 @@ function NavbarDark() {
           }}
           className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm"
         >
-          <span>interstellar</span>
+          <span>Interstellar</span>
         </li>
 
         <li className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm">

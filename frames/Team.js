@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function Team() {
   return (
-    <div>
+    <div className="lg:w-[60%] lg:p-32 ">
       <h2 className=" text-primaryGrey text-sm font-medium">TEAM</h2>
       <h1 className="text-7xl font-semibold text-white leading-[1.3] uppercase font-berlin">
         The Cosmic Crew

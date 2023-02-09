@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div>
+    <div className="lg:w-[60%] lg:p-32 ">
       <h2 className=" text-primaryGrey text-sm font-medium">ABOUT US</h2>
       <h1 className="text-7xl font-extrabold text-white leading-[1.3] font-berlin">
         FROGGIES TO THE SPACE

@@ -6,7 +6,7 @@ import React from "react";
 
 function Audience() {
   return (
-    <div className="">
+    <div className="lg:w-[60%] lg:p-32 ">
       <h2 className=" text-primaryGrey text-sm font-medium">AUDIENCE</h2>
       <div className="relative">
         <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase font-berlin">
