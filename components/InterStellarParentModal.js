@@ -5,6 +5,7 @@ import OrbitingP2E from "./modals/OrbitingP2E";
 import StellarInnovation from "./modals/StellarInnovation";
 import ExpandingHorizons from "./modals/ExpandingHorizons";
 import GalacticContribution from "./modals/GalacticContribution";
+import { animated, useSpring } from "@react-spring/web";
 
 function InterStellarParentModal({
   inerStellarModalOpen,
@@ -26,6 +27,11 @@ function InterStellarParentModal({
   const [galacticContributionsModalOpen, setGalacticContributionsModalOpen] =
     useState(false);
 
+  const styles = useSpring({
+    opacity: inerStellarModalOpen ? 1 : 0,
+    y: inerStellarModalOpen ? 0 : -20,
+  });
+
   return (
     <div>
       {inerStellarModalOpen && (
@@ -44,7 +50,8 @@ function InterStellarParentModal({
               </span>
             </div>
             <div className="text-5xl font-extrabold text-[#424242] text-center uppercase space-y-16 mt-6">
-              <h1
+              <animated.h1
+                style={styles}
                 onClick={() => setFuelingSuccessModalOpen(true)}
                 onMouseEnter={() => {
                   setFuelingSuccessHover(true);
@@ -55,8 +62,9 @@ function InterStellarParentModal({
                 className="hover:text-white transition-all cursor-pointer"
               >
                 Fueling Success
-              </h1>
-              <h1
+              </animated.h1>
+              <animated.h1
+                style={styles}
                 onClick={() => setOrbitingP2EModalOpen(true)}
                 onMouseEnter={() => {
                   setOrbitingP2EHover(true);
@@ -67,8 +75,9 @@ function InterStellarParentModal({
                 className="hover:text-white transition-all cursor-pointer"
               >
                 Orbiting P2E
-              </h1>
-              <h1
+              </animated.h1>
+              <animated.h1
+                style={styles}
                 onClick={() => setStellarInnovationModalOpen(true)}
                 onMouseEnter={() => {
                   setStellarInnovationHover(true);
@@ -79,8 +88,9 @@ function InterStellarParentModal({
                 className="hover:text-white transition-all cursor-pointer"
               >
                 Stellar Innovation
-              </h1>
-              <h1
+              </animated.h1>
+              <animated.h1
+                style={styles}
                 onClick={() => setExpandingHorizonsModalOpen(true)}
                 onMouseEnter={() => {
                   setExpandingHorizonsHover(true);
@@ -91,8 +101,9 @@ function InterStellarParentModal({
                 className="hover:text-white transition-all cursor-pointer"
               >
                 Expanding Horizons
-              </h1>
-              <h1
+              </animated.h1>
+              <animated.h1
+                style={styles}
                 onClick={() => setGalacticContributionsModalOpen(true)}
                 onMouseEnter={() => {
                   setGalacticContributionsHover(true);
@@ -103,7 +114,7 @@ function InterStellarParentModal({
                 className="hover:text-white transition-all cursor-pointer"
               >
                 Galactic Contributions
-              </h1>
+              </animated.h1>
             </div>
           </div>
 
