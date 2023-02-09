@@ -113,7 +113,7 @@ function NavbarLight() {
               <div className="flex flex-col space-y-3">
                 <Link href="/">Partners</Link>
                 <Link href="/Sitemap">Sitemap</Link>
-                <Link href="/">Astronomics</Link>
+                <Link href="/Astronomics">Astronomics</Link>
                 <Link href="/FAQ">FAQ</Link>
                 <a href="https://nanuqe.com/froggies-token/">KYC</a>
                 <a href="https://bscscan.com/token/0x7029994f28fd39ff934a96b25591d250a2183f67">
