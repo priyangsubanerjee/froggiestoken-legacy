@@ -17,7 +17,7 @@ function Astronomics() {
             ASTRONOMICS
           </h1>
         </div>
-        <div className="border-y border-[#DCDCDC] mt-16 py-7 w-[60%] flex items-center justify-between">
+        <div className="border-y border-[#DCDCDC] mt-7 py-7 w-[60%] flex items-center justify-between">
           <div className="space-y-4">
             <h2 className="text-white font-semibold">TOTAL SUPPLY</h2>
             <h1 className="font-extrabold text-xl uppercase text-secondaryGrey">
