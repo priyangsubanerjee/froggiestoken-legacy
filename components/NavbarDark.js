@@ -112,9 +112,9 @@ function NavbarDark() {
             </Popover.Button>
             <Popover.Panel className="absolute left-1/2 top-10 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
               <div className="flex flex-col space-y-3">
-                <Link href="/Sitemap">Partners</Link>
+                <Link href="/">Partners</Link>
                 <Link href="/Sitemap">Sitemap</Link>
-                <Link href="/Astronomics">Astronomics</Link>
+                <Link href="/">Astronomics</Link>
                 <Link href="/FAQ">FAQ</Link>
                 <a href="https://nanuqe.com/froggies-token/">KYC</a>
                 <a href="https://bscscan.com/token/0x7029994f28fd39ff934a96b25591d250a2183f67">
