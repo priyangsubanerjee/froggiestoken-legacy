@@ -36,7 +36,7 @@ function InterStellarParentModal({
               <div className="text-[#424242] fixed top-10 left-10 z-30">
                 <span
                   onClick={() => [setInerStellarModalOpen(false)]}
-                  className="cursor-pointer"
+                  className="cursor-pointer hover:cursor-pointer"
                 >
                   <iconify-icon
                     height="35"
