@@ -18,6 +18,7 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
+        berlin: ["Berlin", "sans-serif"],
       },
       colors: {
         primaryGrey: "#E6E6E6",

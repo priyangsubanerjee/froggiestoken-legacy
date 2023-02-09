@@ -5,6 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: Berlin;
+    font-weight: 700;
+    src: url(/fonts/berlinbold.ttf) format("ttf");
+  }
+}
+
 li {
   cursor: pointer;
 }

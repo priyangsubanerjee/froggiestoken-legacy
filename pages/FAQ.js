@@ -11,7 +11,7 @@ function FAQ() {
       <NavbarDark />
       <div className="p-32">
         <div className="flex items-center space-x-4 mt-10">
-          <h1 className="text-4xl text-white font-bold uppercase font-poppins">
+          <h1 className="text-5xl text-white font-bold uppercase font-berlin">
             Frequently asked questions
           </h1>
         </div>

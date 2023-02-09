@@ -52,7 +52,7 @@ function InterStellarParentModal({
                 onMouseLeave={() => {
                   setFuelingSuccessHover(false);
                 }}
-                className="hover:text-white transition-all cursor-pointer"
+                className="hover:text-white transition-all cursor-pointer font-berlin"
               >
                 Fueling Success
               </h1>
@@ -64,7 +64,7 @@ function InterStellarParentModal({
                 onMouseLeave={() => {
                   setOrbitingP2EHover(false);
                 }}
-                className="hover:text-white transition-all cursor-pointer"
+                className="hover:text-white transition-all cursor-pointer font-berlin"
               >
                 Orbiting P2E
               </h1>
@@ -76,7 +76,7 @@ function InterStellarParentModal({
                 onMouseLeave={() => {
                   setStellarInnovationHover(false);
                 }}
-                className="hover:text-white transition-all cursor-pointer"
+                className="hover:text-white transition-all cursor-pointer font-berlin"
               >
                 Stellar Innovation
               </h1>
@@ -88,7 +88,7 @@ function InterStellarParentModal({
                 onMouseLeave={() => {
                   setExpandingHorizonsHover(false);
                 }}
-                className="hover:text-white transition-all cursor-pointer"
+                className="hover:text-white transition-all cursor-pointer font-berlin"
               >
                 Expanding Horizons
               </h1>
@@ -100,7 +100,7 @@ function InterStellarParentModal({
                 onMouseLeave={() => {
                   setGalacticContributionsHover(false);
                 }}
-                className="hover:text-white transition-all cursor-pointer"
+                className="hover:text-white transition-all cursor-pointer font-berlin"
               >
                 Galactic Contributions
               </h1>

@@ -12,8 +12,8 @@ function Astronomics() {
         alt=""
       />
       <div className="p-32">
-        <div className=" space-x-4 mt-10">
-          <h1 className="text-7xl text-white font-bold uppercase font-poppins">
+        <div className="space-x-4 mt-10">
+          <h1 className="text-7xl text-white font-bold uppercase font-berlin">
             ASTRONOMICS
           </h1>
         </div>

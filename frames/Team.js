@@ -7,7 +7,7 @@ function Team() {
   return (
     <div>
       <h2 className=" text-primaryGrey text-sm font-medium">TEAM</h2>
-      <h1 className="text-7xl font-semibold text-white leading-[1.3] uppercase">
+      <h1 className="text-7xl font-semibold text-white leading-[1.3] uppercase font-berlin">
         The Cosmic Crew
       </h1>
 

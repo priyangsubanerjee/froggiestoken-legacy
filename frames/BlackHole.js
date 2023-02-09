@@ -5,7 +5,7 @@ function BlackHole() {
   return (
     <div>
       <h2 className=" text-primaryGrey text-sm font-medium">BLACK HOLE</h2>
-      <h1 className="text-7xl font-semibold text-white leading-[1.3]">
+      <h1 className="text-7xl font-semibold text-white leading-[1.3] font-berlin">
         Into the Black hole
       </h1>
       <p className="text-sm text-white leading-7 mt-4 font-poppins">

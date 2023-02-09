@@ -7,7 +7,7 @@ function Manifesto() {
       <NavbarLight />
       <div className="p-32">
         <div className="flex items-center space-x-4">
-          <h1 className="text-7xl font-bold uppercase font-poppins">
+          <h1 className="text-7xl font-bold uppercase font-berlin">
             Manifesto
           </h1>
           <div className="text-5xl mt-8">•</div>

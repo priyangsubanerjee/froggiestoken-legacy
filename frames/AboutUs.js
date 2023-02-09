@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <div>
       <h2 className=" text-primaryGrey text-sm font-medium">ABOUT US</h2>
-      <h1 className="text-7xl font-semibold text-white leading-[1.3]">
+      <h1 className="text-7xl font-semibold text-white leading-[1.3] font-berlin">
         FROGGIES TO THE SPACE
       </h1>
       <p className="text-sm text-white leading-7 mt-4 font-poppins">

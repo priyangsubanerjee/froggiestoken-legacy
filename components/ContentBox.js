@@ -15,7 +15,7 @@ function ContentBox({ count, active, setActive, children }) {
   return (
     <div
       id={`${count}`}
-      className="text-white h-screen p-7 lg:p-32 w-full snap-center shrink-0 max-w-full lg:min-h-screen lg:h-fit overflow-hidden"
+      className="text-white h-screen p-7 lg:p-32 w-full shrink-0 max-w-full lg:min-h-screen lg:h-fit overflow-hidden"
     >
       <div ref={ref} className="h-10"></div>
       <div className="w-screen lg:w-[60%]">{children}</div>

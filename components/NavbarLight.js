@@ -3,9 +3,11 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Popover } from "@headlessui/react";
+import InterStellarParentModal from "./InterStellarParentModal";
 
 function NavbarLight() {
   const [show, setShow] = useState(true);
+  const [inerStellarModalOpen, setInerStellarModalOpen] = useState(false);
 
   const controlNavbar = () => {
     scrollY = document.getElementById("scrollContent").scrollTop;
@@ -42,7 +44,12 @@ function NavbarLight() {
             <img src="/images/everlostDark.svg" alt="" />
           </Link>
         </li>
-        <li className="bg-[#E4E8FF] rounded-md py-1 px-5 flex items-center font-poppins text-sm">
+        <li
+          onClick={() => {
+            setInerStellarModalOpen(true);
+          }}
+          className="bg-[#E4E8FF] rounded-md py-1 px-5 flex items-center font-poppins text-sm"
+        >
           <span>interstellar</span>
         </li>
 
@@ -128,6 +135,10 @@ function NavbarLight() {
           </Popover>
         </li>
       </ul>
+      <InterStellarParentModal
+        inerStellarModalOpen={inerStellarModalOpen}
+        setInerStellarModalOpen={setInerStellarModalOpen}
+      />
     </div>
   );
 }

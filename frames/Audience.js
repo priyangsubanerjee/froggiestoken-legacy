@@ -9,10 +9,10 @@ function Audience() {
     <div className="">
       <h2 className=" text-primaryGrey text-sm font-medium">AUDIENCE</h2>
       <div className="relative">
-        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase">
+        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase font-berlin">
           TEAM IS CONSTANTLY
         </h1>
-        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase">
+        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase font-berlin">
           BUILDING; WHATS NEXT?
         </h1>
       </div>

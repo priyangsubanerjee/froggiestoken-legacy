@@ -27,7 +27,9 @@ function FuelingSuccess({
                   <span className="underline">
                     Migration to an upgraded BSC contract
                   </span>
-                  <span className="bg-[#27A167] px-4 rounded-full">Done</span>
+                  <span className="bg-[#27A167] px-4 rounded-full hidden">
+                    Done
+                  </span>
                 </div>
                 <p className="mt-1 leading-7">
                   We migrated to BSC to ensure a more stable liquidity pool and
@@ -42,7 +44,9 @@ function FuelingSuccess({
                   <span className="underline">
                     Release fully functional P2E
                   </span>
-                  <span className="bg-[#27A167] px-4 rounded-full">Done</span>
+                  <span className="bg-[#27A167] px-4 rounded-full hidden">
+                    Done
+                  </span>
                 </div>
                 <p className="mt-1 leading-7">
                   We have been working on our P2E for many months, and we are
@@ -57,7 +61,9 @@ function FuelingSuccess({
                   <span className="underline">
                     Launching an upgraded website
                   </span>
-                  <span className="bg-[#27A167] px-4 rounded-full">Done</span>
+                  <span className="bg-[#27A167] px-4 rounded-full hidden">
+                    Done
+                  </span>
                 </div>
                 <p className="mt-1 leading-7">
                   The website you are reading right now is FROGGIES new and
@@ -71,7 +77,7 @@ function FuelingSuccess({
                   <span className="underline">
                     Start development of staking contract
                   </span>
-                  <span className="bg-[#DEAB28] px-4 rounded-full">
+                  <span className="bg-[#DEAB28] px-4 rounded-full hidden">
                     Building
                   </span>
                 </div>

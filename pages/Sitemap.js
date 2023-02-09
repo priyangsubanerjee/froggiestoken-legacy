@@ -6,7 +6,9 @@ function Sitemap() {
     <div id="scrollContent" className="h-screen overflow-auto">
       <NavbarDark />
       <div className="h-[350px] bg-[#030835] p-32">
-        <h1 className="text-7xl text-white font-bold mt-16">SITEMAP</h1>
+        <h1 className="text-7xl text-white font-bold mt-16 font-berlin">
+          SITEMAP
+        </h1>
       </div>
       <div className="px-44 py-16 flex">
         <div className="flex space-x-20 mx-auto">
