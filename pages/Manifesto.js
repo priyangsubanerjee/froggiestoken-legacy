@@ -14,7 +14,7 @@ function Manifesto() {
           <div className="h-2 w-56 bg-black mt-10 block"></div>
         </div>
         <div className="mt-16 h-[2px] bg-gray-200 w-full rounded-md"></div>
-        <div className="w-1/2">
+        <div className="w-1/2 font-poppins">
           <p className="text-sm leading-6 mt-16">
             Beyond the stars, beyond the night, A future bright, a cosmic sight.{" "}
             <br />

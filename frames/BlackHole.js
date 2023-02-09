@@ -25,8 +25,13 @@ function BlackHole() {
           </span>
         </span>
       </p>
-      <div className="hidden grid-cols-2 w-[600px] mt-16">
-        <div className="border h-20 border-slate-300 flex items-center overflow-hidden">
+      <div className="hidden grid-cols-2  mt-16">
+        <div className="h-20 relative flex items-center overflow-hidden">
+          <img
+            src="/images/borderBox.svg"
+            className="absolute inset-0 h-[90px]"
+            alt=""
+          />
           <div className="w-[30%]">
             <img src="/images/buy.png" alt="" />
           </div>
@@ -71,7 +76,7 @@ function BlackHole() {
           </div>
         </div>
       </div>
-      <div className="mt-16 pointer-events-none">
+      <div className="mt-16 pointer-events-none w-[600px] overflow-hidden">
         <img
           className="cursor-pointer select-none pointer-events-none"
           src="/images/borderboxSS.png"
