@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Popover } from "@headlessui/react";
 import InterStellarParentModal from "./InterStellarParentModal";
+import { Fade } from "react-awesome-reveal";
 
 function NavbarDark() {
   const [show, setShow] = useState(true);
@@ -136,6 +137,7 @@ function NavbarDark() {
           </Popover>
         </li>
       </ul>
+
       <InterStellarParentModal
         inerStellarModalOpen={inerStellarModalOpen}
         setInerStellarModalOpen={setInerStellarModalOpen}

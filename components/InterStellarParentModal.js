@@ -5,7 +5,7 @@ import OrbitingP2E from "./modals/OrbitingP2E";
 import StellarInnovation from "./modals/StellarInnovation";
 import ExpandingHorizons from "./modals/ExpandingHorizons";
 import GalacticContribution from "./modals/GalacticContribution";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function InterStellarParentModal({
   inerStellarModalOpen,

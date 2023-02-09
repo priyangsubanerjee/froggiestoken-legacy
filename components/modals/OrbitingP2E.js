@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Fade } from "react-reveal";
 
 function FuelingSuccess({ orbitingP2EModalOpen, setOrbitingP2EModalOpen }) {
   return (
