@@ -8,7 +8,7 @@
 @layer base {
   @font-face {
     font-family: Berlin;
-    font-weight: 700;
+    font-weight: 800;
     src: url(/fonts/berlinbold.ttf) format("ttf");
   }
 }
