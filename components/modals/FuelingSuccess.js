@@ -4,19 +4,22 @@ import React from "react";
 function FuelingSuccess({
   fuelingSuccessModalOpen,
   setFuelingSuccessModalOpen,
+  standAlone = false,
 }) {
   return (
     <div>
       {fuelingSuccessModalOpen && (
         <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 p-16 overflow-auto">
-          <div>
-            <img
-              onClick={() => setFuelingSuccessModalOpen(false)}
-              src="/images/hamburger.png"
-              className="h-5 cursor-pointer"
-              alt=""
-            />
-          </div>
+          {standAlone == false && (
+            <div>
+              <img
+                onClick={() => setFuelingSuccessModalOpen(false)}
+                src="/images/hamburger.png"
+                className="h-5 cursor-pointer"
+                alt=""
+              />
+            </div>
+          )}
           <div className="mt-16 w-[65%]">
             <h1 className="uppercase text-5xl text-white font-extrabold">
               fueling success

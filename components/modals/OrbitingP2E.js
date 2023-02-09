@@ -1,19 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-function FuelingSuccess({ orbitingP2EModalOpen, setOrbitingP2EModalOpen }) {
+function FuelingSuccess({
+  orbitingP2EModalOpen,
+  setOrbitingP2EModalOpen,
+  standAlone = false,
+}) {
   return (
     <div>
       {orbitingP2EModalOpen && (
         <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 p-16 overflow-auto">
-          <div>
-            <img
-              onClick={() => setOrbitingP2EModalOpen(false)}
-              src="/images/hamburger.png"
-              className="h-5 cursor-pointer"
-              alt=""
-            />
-          </div>
+          {standAlone == false && (
+            <div>
+              <img
+                onClick={() => setOrbitingP2EModalOpen(false)}
+                src="/images/hamburger.png"
+                className="h-5 cursor-pointer"
+                alt=""
+              />
+            </div>
+          )}
           <div className="mt-16 w-[65%]">
             <h1 className="uppercase text-5xl text-white font-extrabold">
               orbiting p2e
