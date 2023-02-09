@@ -25,11 +25,11 @@ function BlackHole() {
           </span>
         </span>
       </p>
-      <div className="hidden grid-cols-2  mt-16">
-        <div className="h-20 relative flex items-center overflow-hidden">
+      <div className="grid grid-cols-2 mt-16 w-[600px]">
+        <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
           <img
             src="/images/borderBox.svg"
-            className="absolute inset-0 h-[90px]"
+            className="absolute -right-[1px]  -bottom-1"
             alt=""
           />
           <div className="w-[30%]">
@@ -42,9 +42,14 @@ function BlackHole() {
             </p>
           </div>
         </div>
-        <div className="border h-20 border-slate-300 flex items-center overflow-hidden">
+        <div className="relative h-20 flex items-center overflow-hidden cursor-pointer">
+          <img
+            src="/images/borderBox.svg"
+            className="absolute -left-1  -bottom-1 "
+            alt=""
+          />
           <div className="w-[30%]">
-            <img src="/images/interstellar.png" className="-mt-5" alt="" />
+            <img src="/images/interstellar.png" className="-mt-1" alt="" />
           </div>
           <div className="ml-6">
             <h1 className="font-bold uppercase">interstellar</h1>
@@ -53,7 +58,12 @@ function BlackHole() {
             </p>
           </div>
         </div>
-        <div className="border h-20 border-slate-300 flex items-center  overflow-hidden">
+        <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
+          <img
+            src="/images/borderBox.svg"
+            className="absolute inset-0 "
+            alt=""
+          />
           <div className="w-[30%]">
             <img src="/images/manifesto.png" className="mt-5" alt="" />
           </div>
@@ -64,7 +74,12 @@ function BlackHole() {
             </p>
           </div>
         </div>
-        <div className="border h-20 border-slate-300 flex items-center  overflow-hidden">
+        <div className="h-20 relative flex items-center  overflow-hidden cursor-pointer">
+          <img
+            src="/images/borderBox.svg"
+            className="absolute -left-1"
+            alt=""
+          />
           <div className="w-[30%]">
             <img src="/images/astronomics.png" alt="" />
           </div>
@@ -76,13 +91,7 @@ function BlackHole() {
           </div>
         </div>
       </div>
-      <div className="mt-16 pointer-events-none w-[600px] overflow-hidden">
-        <img
-          className="cursor-pointer select-none pointer-events-none"
-          src="/images/borderboxSS.png"
-          alt=""
-        />
-      </div>
+
       <div className="flex items-baseline mt-16 whitespace-nowrap uppercase font-bold font-poppins">
         <span>To the moon and never back .</span>
         <div className="ml-1 w-20 h-[1px] bg-white"></div>
