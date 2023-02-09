@@ -118,7 +118,7 @@ function InterStellarParentModal({
             />
             <img
               src="/images/orbitingP2e.svg"
-              className={`fixed bottom-0 right-0 ${
+              className={`fixed -top-20 right-0 ${
                 orbitingP2EHover ? "opacity-100" : "opacity-0"
               } transition-all duration-700}`}
               alt=""

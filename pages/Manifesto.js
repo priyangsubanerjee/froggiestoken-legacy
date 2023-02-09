@@ -44,7 +44,9 @@ function Manifesto() {
         </div>
         <div className="flex items-center justify-end text-[#777777] text-sm mt-16">
           Partnered with{" "}
-          <span className="cursor-pointer underline ml-1">Dtory Studios</span>
+          <a href="https://dtory.in/" className="cursor-pointer underline ml-1">
+            Dtory Studios
+          </a>
         </div>
       </div>
     </div>
