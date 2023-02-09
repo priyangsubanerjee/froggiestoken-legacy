@@ -61,7 +61,7 @@ function NavbarDark() {
                 icon="gridicons:dropdown"
               ></iconify-icon>
             </Popover.Button>
-            <Popover.Panel className="absolute left-1/2 top-7 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
+            <Popover.Panel className="absolute left-1/2 top-10 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
               <div className="flex flex-col space-y-3">
                 <a href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB">
                   Pancakeswap
@@ -108,7 +108,7 @@ function NavbarDark() {
                 icon="gridicons:dropdown"
               ></iconify-icon>
             </Popover.Button>
-            <Popover.Panel className="absolute left-1/2 top-7 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
+            <Popover.Panel className="absolute left-1/2 top-10 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
               <div className="flex flex-col space-y-3">
                 <a href="https://nanuqe.com/froggies-token/">KYC</a>
                 <a href="https://bscscan.com/token/0x7029994f28fd39ff934a96b25591d250a2183f67">
