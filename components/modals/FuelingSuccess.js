@@ -12,7 +12,7 @@ function FuelingSuccess({
           <div>
             <img
               onClick={() => setFuelingSuccessModalOpen(false)}
-              src="/images/hamBurgerMenu.svg"
+              src="/images/hamburger.png"
               className="h-5 cursor-pointer"
               alt=""
             />

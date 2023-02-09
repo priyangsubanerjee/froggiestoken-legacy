@@ -9,7 +9,7 @@ function FuelingSuccess({ orbitingP2EModalOpen, setOrbitingP2EModalOpen }) {
           <div>
             <img
               onClick={() => setOrbitingP2EModalOpen(false)}
-              src="/images/hamBurgerMenu.svg"
+              src="/images/hamburger.png"
               className="h-5 cursor-pointer"
               alt=""
             />
