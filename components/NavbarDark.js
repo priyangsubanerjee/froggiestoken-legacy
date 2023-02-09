@@ -39,7 +39,9 @@ function NavbarDark() {
       </Link>
       <ul className="ml-auto text-white flex space-x-4">
         <li className="bg-[#020726] rounded-md py-1 px-4 flex items-center">
-          <img src="/images/everlostLight.svg" alt="" />
+          <Link href={"https://www.everlost.io/"}>
+            <img src="/images/everlostLight.svg" alt="" />
+          </Link>
         </li>
         <li className="bg-[#020726] rounded-md py-1 px-5 flex items-center font-poppins text-sm">
           <span>interstellar</span>
@@ -110,6 +112,10 @@ function NavbarDark() {
             </Popover.Button>
             <Popover.Panel className="absolute left-1/2 top-10 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
               <div className="flex flex-col space-y-3">
+                <Link href="/Sitemap">Partners</Link>
+                <Link href="/Sitemap">Sitemap</Link>
+                <Link href="/Astronomics">Astronomics</Link>
+                <Link href="/FAQ">FAQ</Link>
                 <a href="https://nanuqe.com/froggies-token/">KYC</a>
                 <a href="https://bscscan.com/token/0x7029994f28fd39ff934a96b25591d250a2183f67">
                   BSCScan
