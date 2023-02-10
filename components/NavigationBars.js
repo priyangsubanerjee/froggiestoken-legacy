@@ -29,7 +29,7 @@ function NavigationBars({ active, totalBars }) {
         >
           <div className="space-y-1">
             <p className="text-secondaryGrey text-xs">01</p>
-            <p className="uppercase text-sm font-poppins">About us</p>
+            <p className="uppercase text-xs font-poppins">About us</p>
           </div>
         </a>
         <a
@@ -40,29 +40,29 @@ function NavigationBars({ active, totalBars }) {
         >
           <div className="space-y-1">
             <p className="text-secondaryGrey text-xs">02</p>
-            <p className="uppercase text-sm font-poppins">Team</p>
+            <p className="uppercase text-xs font-poppins">Team</p>
           </div>
         </a>{" "}
         <a
           href="#3"
           className={`${
             active == 3 ? "bg-white text-black" : "bg-[#030835] text-white"
-          }  px-5 py-2 rounded-md text-center transition-all`}
+          }  px-3 py-2 rounded-md text-center transition-all`}
         >
           <div className="space-y-1">
             <p className="text-secondaryGrey text-xs">03</p>
-            <p className="uppercase text-sm font-poppins">Audience</p>
+            <p className="uppercase text-xs font-poppins">Audience</p>
           </div>
         </a>
         <a
           href="#4"
           className={`${
             active == 4 ? "bg-white text-black" : "bg-[#030835] text-white"
-          }  px-5 py-2 rounded-md text-center transition-all`}
+          }  px-3 py-2 rounded-md text-center transition-all`}
         >
           <div className="space-y-1">
             <p className="text-secondaryGrey text-xs">04</p>
-            <p className="uppercase text-sm font-poppins">Black Hole</p>
+            <p className="uppercase text-xs font-poppins">Black Hole</p>
           </div>
         </a>
       </div>

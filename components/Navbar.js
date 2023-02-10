@@ -194,7 +194,11 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
           </Popover>
         </li>
       </ul>
-      <button className="text-white lg:hidden ml-auto">
+      <button
+        className={`${
+          theme == "dark" ? "text-white" : "text-black"
+        } lg:hidden ml-auto`}
+      >
         <iconify-icon height="30" width="30" icon="gg:menu-left"></iconify-icon>
       </button>
       <InterStellarParentModal
