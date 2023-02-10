@@ -22,7 +22,7 @@ function BlackHole() {
           <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
             BLACK HOLE
           </h2>
-          <h1 className="text-4xl lg:text-7xl font-semibold text-white leading-[1.3] font-berlin uppercase">
+          <h1 className="text-4xl lg:text-7xl font-semibold text-white leading-[1.3] font-berlin uppercase  mt-5">
             Into the Black hole
           </h1>
           <p className="text-sm text-white leading-7 mt-4 font-poppins">
@@ -144,7 +144,7 @@ function BlackHole() {
                 </div>
               </div>
             </a>
-            <a href="/InterStellar">
+            <Link href="/InterStellar">
               <div className="relative h-20 flex items-center overflow-hidden cursor-pointer">
                 <img
                   src="/images/borderBox.svg"
@@ -165,7 +165,7 @@ function BlackHole() {
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
             <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
               <img
                 src="/images/borderBox.svg"

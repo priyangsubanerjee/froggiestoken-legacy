@@ -19,7 +19,7 @@ function NavigationBars({ active, totalBars }) {
         })}
       </div>
       <div
-        className={`fixed inset-x-0 bottom-5 h-fit w-full z-10 lg:hidden flex items-center justify-around text-white`}
+        className={`fixed inset-x-0 bottom-5 h-fit w-full z-10 lg:hidden flex items-center justify-around text-white overflow-hidden`}
       >
         <a
           href="#1"
@@ -28,7 +28,13 @@ function NavigationBars({ active, totalBars }) {
           }  px-5 py-2 rounded-md text-center transition-all`}
         >
           <div className="space-y-1">
-            <p className="text-secondaryGrey text-xs">01</p>
+            <p
+              className={`text-xs ${
+                active == 1 ? "text-black/60" : "text-secondaryGrey"
+              }`}
+            >
+              01
+            </p>
             <p className="uppercase text-xs font-poppins">About us</p>
           </div>
         </a>
@@ -39,10 +45,16 @@ function NavigationBars({ active, totalBars }) {
           }  px-5 py-2 rounded-md text-center transition-all`}
         >
           <div className="space-y-1">
-            <p className="text-secondaryGrey text-xs">02</p>
+            <p
+              className={`text-xs ${
+                active == 2 ? "text-black/60" : "text-secondaryGrey"
+              }`}
+            >
+              02
+            </p>
             <p className="uppercase text-xs font-poppins">Team</p>
           </div>
-        </a>{" "}
+        </a>
         <a
           href="#3"
           className={`${
@@ -50,7 +62,13 @@ function NavigationBars({ active, totalBars }) {
           }  px-3 py-2 rounded-md text-center transition-all`}
         >
           <div className="space-y-1">
-            <p className="text-secondaryGrey text-xs">03</p>
+            <p
+              className={` text-xs ${
+                active == 3 ? "text-black/60" : "text-secondaryGrey"
+              }`}
+            >
+              03
+            </p>
             <p className="uppercase text-xs font-poppins">Audience</p>
           </div>
         </a>
@@ -61,7 +79,13 @@ function NavigationBars({ active, totalBars }) {
           }  px-3 py-2 rounded-md text-center transition-all`}
         >
           <div className="space-y-1">
-            <p className="text-secondaryGrey text-xs">04</p>
+            <p
+              className={`text-xs ${
+                active == 4 ? "text-black/60" : "text-secondaryGrey"
+              }`}
+            >
+              04
+            </p>
             <p className="uppercase text-xs font-poppins">Black Hole</p>
           </div>
         </a>

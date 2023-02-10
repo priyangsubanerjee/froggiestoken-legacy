@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="h-screen bg-primaryBg overflow-hidden">
       <Navbar hideOnScroll={true} />
-      <Vector />
+      <Vector active={active} />
       <NavigationBars active={active} totalBars={4} />
       <div
         id="scrollContent"

@@ -1,9 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect } from "react";
 
-function Vector() {
+function Vector({ active }) {
+  useEffect(() => {
+    console.log(active);
+  }, [active]);
   return (
-    <div className="h-full w-full fixed inset-0 flex items-end justify-end">
+    <div
+      className={`${
+        active == 1 ? "opacity-100 lg:opacity-100" : "opacity-0 lg:opacity-100"
+      } h-full w-full fixed inset-0 flex items-end justify-end transition-all duration-700`}
+    >
       <img
         className="h-64 lg:h-[80%] w-auto object-contain translate-y-[1%]"
         src="/images/frogVector.png"

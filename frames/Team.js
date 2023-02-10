@@ -5,11 +5,11 @@ import Typewriter from "typewriter-effect";
 
 function Team() {
   return (
-    <div className="lg:w-[60%] lg:p-32 ">
+    <div className="lg:w-[65%] lg:p-32 ">
       <h2 className="lg:block hidden text-primaryGrey text-sm font-medium">
         TEAM
       </h2>
-      <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase">
+      <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase  mt-5">
         The Cosmic Crew
       </h1>
 
@@ -27,7 +27,7 @@ function Team() {
       </p>
 
       <div className="grid grid-cols-3 w-auto lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img src="/images/crazyx.svg" className="absolute top-0" alt="" />
             <div className="px-3">
@@ -35,34 +35,32 @@ function Team() {
                 CRAZYX
               </h1>
               <p className="text-left text-sm text-secondaryGrey">
-                Core Member
+                Core Community
               </p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Even in space there are peculiar creatures, CrazyX is one of them.
             </p>
           </div>
         </div>
 
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img src="/images/chopin.svg" className="absolute top-0" alt="" />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 Chopin
               </h1>
               <p className="text-left text-sm text-secondaryGrey">
-                Core Member
+                Core Marketing
               </p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Knows the demands of the interplanetary species.
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/master.svg"
@@ -70,18 +68,17 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 Master..
               </h1>
-              <p className="text-left text-sm text-secondaryGrey">Co-Founder</p>
+              <p className="text-left text-sm text-secondaryGrey">Founder</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              The Goat of the entire combination of Stellar Systems.
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/marco.svg"
@@ -89,18 +86,17 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 marco
               </h1>
               <p className="text-left text-sm text-secondaryGrey">Designer</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Earth is not the only place where assets need to be persuasive.
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/jochen.svg"
@@ -108,18 +104,17 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
-                jochen
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
+                Orbital Engineer
               </h1>
               <p className="text-left text-sm text-secondaryGrey">Developer</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Providing external space-life with equations and coding.
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/msfro.svg"
@@ -127,18 +122,19 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
-                Ms Fro...
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
+                Froggies Dev
               </h1>
-              <p className="text-left text-sm text-secondaryGrey">Co-Founder</p>
+              <p className="text-left text-sm text-secondaryGrey">
+                Developer/collaborations
+              </p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Throwing out lines to different planets to secure collaborations.
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/stephen.svg"
@@ -146,20 +142,17 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
-                Stephen
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
+                Miss Froggies
               </h1>
-              <p className="text-left text-sm text-secondaryGrey">
-                Core Member
-              </p>
+              <p className="text-left text-sm text-secondaryGrey">Co-Founder</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Also in cosmos there are strong women needed.
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/paul.svg"
@@ -167,7 +160,7 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 Paul
               </h1>
               <p className="text-left text-sm text-secondaryGrey">Ambassador</p>
@@ -178,7 +171,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/lightns.svg"
@@ -186,7 +179,7 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 lightns.
               </h1>
               <p className="text-left text-sm text-secondaryGrey">Ambassador</p>
@@ -197,7 +190,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group bg-primaryBg">
+        <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/whale.svg"
@@ -205,7 +198,7 @@ function Team() {
               alt=""
             />
             <div className="px-3">
-              <h1 className="mt-24 font-bold text-white text-left uppercase">
+              <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 whale
               </h1>
               <p className="text-left text-sm text-secondaryGrey">Insider</p>

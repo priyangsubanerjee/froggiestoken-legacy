@@ -35,7 +35,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
 
   return (
     <div
-      className={`flex items-center  px-5 lg:px-[80px] py-7 lg:py-0 lg:top-10 z-10 fixed ${
+      className={`flex items-center  px-5 lg:px-[80px] py-7 lg:py-0 lg:top-10 z-20 fixed ${
         show ? "opacity-100" : " opacity-0"
       } bg-transparent inset-x-0 transition-all`}
     >

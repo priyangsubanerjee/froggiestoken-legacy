@@ -5,12 +5,15 @@ import OrbitingP2E from "./modals/OrbitingP2E";
 import StellarInnovation from "./modals/StellarInnovation";
 import ExpandingHorizons from "./modals/ExpandingHorizons";
 import GalacticContribution from "./modals/GalacticContribution";
+import { useRouter } from "next/router";
 
 function InterStellarParentModal({
   inerStellarModalOpen,
   setInerStellarModalOpen,
   standAlone = false,
 }) {
+  const router = useRouter();
+
   const [fuelingSuccessHover, setFuelingSuccessHover] = useState(false);
   const [orbitingP2EHover, setOrbitingP2EHover] = useState(false);
   const [stellarInnovationHover, setStellarInnovationHover] = useState(false);
@@ -32,20 +35,23 @@ function InterStellarParentModal({
       {inerStellarModalOpen && (
         <div className="bg-[#010417] fixed inset-0 h-full w-full z-20 p-16">
           <div className="fixed inset-0 flex items-center justify-center z-30">
-            {standAlone == false && (
-              <div className="text-[#424242] fixed top-10 left-10 z-30">
-                <span
-                  onClick={() => [setInerStellarModalOpen(false)]}
-                  className="cursor-pointer hover:cursor-pointer"
-                >
-                  <iconify-icon
-                    height="35"
-                    width="35"
-                    icon="radix-icons:cross-1"
-                  ></iconify-icon>
-                </span>
-              </div>
-            )}
+            <div className="text-[#424242] fixed top-10 left-10 z-30">
+              <span
+                onClick={() => {
+                  standAlone == true
+                    ? router.back()
+                    : setInerStellarModalOpen(false);
+                }}
+                className="cursor-pointer hover:cursor-pointer"
+              >
+                <iconify-icon
+                  height="35"
+                  width="35"
+                  icon="radix-icons:cross-1"
+                ></iconify-icon>
+              </span>
+            </div>
+
             <div className="text-5xl font-extrabold text-[#424242] text-center uppercase space-y-16 mt-6">
               <h1
                 onClick={() => setFuelingSuccessModalOpen(true)}

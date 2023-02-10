@@ -10,7 +10,7 @@ function Audience() {
       <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
         AUDIENCE
       </h2>
-      <div className="relative">
+      <div className="relative  mt-5">
         <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           TEAM IS CONSTANTLY
         </h1>
