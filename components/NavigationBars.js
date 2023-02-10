@@ -19,7 +19,7 @@ function NavigationBars({ active, totalBars }) {
         })}
       </div>
       <div
-        className={`fixed inset-x-0 bottom-5 h-fit w-full z-10 flex items-center justify-around text-white`}
+        className={`fixed inset-x-0 bottom-5 h-fit w-full z-10 lg:hidden flex items-center justify-around text-white`}
       >
         <a
           href="#1"

@@ -29,24 +29,33 @@ function Team() {
       <div className="grid grid-cols-3 w-auto lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
-            <img src="/images/crazyx.png" className="absolute top-0" alt="" />
-            <h1 className="mt-24 font-bold text-white text-center">CRAZYX</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <img src="/images/crazyx.svg" className="absolute top-0" alt="" />
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                CRAZYX
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">
+                Core Member
+              </p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
             </p>
           </div>
         </div>
+
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
-            <img src="/images/chopin.png" className="absolute top-0" alt="" />
-            <h1 className="mt-24 font-bold text-white text-center">CHOPIN</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <img src="/images/chopin.svg" className="absolute top-0" alt="" />
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                Chopin
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">
+                Core Member
+              </p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -56,14 +65,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/master.png"
+              src="/images/master.svg"
               className="absolute top-0 right-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">MASTER..</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                Master..
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Co-Founder</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -73,14 +84,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/marco.png"
+              src="/images/marco.svg"
               className="absolute top-0 right-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">Marco</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                marco
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Designer</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -90,14 +103,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/jochen.png"
+              src="/images/jochen.svg"
               className="absolute top-0 right-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">JOCHEN</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                jochen
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Developer</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -107,14 +122,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/msfro.png"
+              src="/images/msfro.svg"
               className="absolute top-0 right-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">MSFRO..</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                Ms Fro...
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Co-Founder</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -124,14 +141,18 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/stephen.png"
+              src="/images/stephen.svg"
               className="absolute top-0 left-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">STEPHEN</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                Stephen
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">
+                Core Member
+              </p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -141,14 +162,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/paul.png"
+              src="/images/paul.svg"
               className="absolute top-0 left-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">PAUL</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                Paul
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Ambassador</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -158,14 +181,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/lightns.png"
+              src="/images/lightns.svg"
               className="absolute top-0 left-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">LIGHTNS</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                lightns.
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Ambassador</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
@@ -175,14 +200,16 @@ function Team() {
         <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/whale.png"
+              src="/images/whale.svg"
               className="absolute top-0 left-0"
               alt=""
             />
-            <h1 className="mt-24 font-bold text-white text-center">WHALE</h1>
-            <p className="text-center text-sm text-secondaryGrey">
-              Core Member
-            </p>
+            <div className="px-3">
+              <h1 className="mt-24 font-bold text-white text-left uppercase">
+                whale
+              </h1>
+              <p className="text-left text-sm text-secondaryGrey">Insider</p>
+            </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
