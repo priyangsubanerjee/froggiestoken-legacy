@@ -9,7 +9,7 @@ function Team() {
       <h2 className="lg:block hidden text-primaryGrey text-sm font-medium">
         TEAM
       </h2>
-      <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase  mt-5">
+      <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase  mt-5">
         The Cosmic Crew
       </h1>
 
@@ -26,7 +26,7 @@ function Team() {
         lower gravity and increase lift off.
       </p>
 
-      <div className="grid grid-cols-3 w-auto lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
+      <div className="grid grid-cols-2 h-[350px] lg:h-auto w-full lg:grid-cols-5 mt-7 lg:mt-10 gap-0 cursor-pointer overflow-auto deadlineScrollView">
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img src="/images/crazyx.svg" className="absolute top-0" alt="" />

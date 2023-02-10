@@ -7,7 +7,7 @@ function AboutUs() {
       <h2 className="hidden lg:inline-block text-primaryGrey text-sm font-medium">
         ABOUT US
       </h2>
-      <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin mt-5">
+      <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin mt-5">
         FROGGIES TO THE SPACE
       </h1>
       <p className="text-sm text-white leading-7 mt-4 font-poppins">

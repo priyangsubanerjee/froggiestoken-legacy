@@ -22,7 +22,7 @@ function BlackHole() {
           <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
             BLACK HOLE
           </h2>
-          <h1 className="text-4xl lg:text-7xl font-semibold text-white leading-[1.3] font-berlin uppercase  mt-5">
+          <h1 className="text-3xl lg:text-7xl font-semibold text-white leading-[1.3] font-berlin uppercase  mt-5">
             Into the Black hole
           </h1>
           <p className="text-sm text-white leading-7 mt-4 font-poppins">
@@ -125,7 +125,7 @@ function BlackHole() {
             </Link>
           </div>
 
-          <div className="grid lg:hidden grid-cols-1 mt-16 w-[300px] py-2">
+          <div className="grid lg:hidden grid-cols-1 mt-7 lg:mt-16 w-[300px] py-2">
             <a href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB">
               <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
                 <img
@@ -204,7 +204,7 @@ function BlackHole() {
             </Link>
           </div>
 
-          <div className="flex items-baseline mt-16 whitespace-nowrap uppercase font-bold font-poppins">
+          <div className="flex items-baseline mt-7 lg:mt-16 whitespace-nowrap uppercase font-bold font-poppins">
             <span>To the moon and never back .</span>
             <div className="ml-1 w-20 h-[1px] bg-white"></div>
           </div>

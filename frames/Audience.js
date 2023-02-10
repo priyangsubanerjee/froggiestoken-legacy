@@ -11,15 +11,15 @@ function Audience() {
         AUDIENCE
       </h2>
       <div className="relative  mt-5">
-        <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
+        <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           TEAM IS CONSTANTLY
         </h1>
-        <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
+        <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           BUILDING; WHATS NEXT?
         </h1>
       </div>
 
-      <div className="deadlineScrollView h-[300px] w-full lg:w-[600px] overflow-auto mt-16 space-y-5">
+      <div className="deadlineScrollView h-[300px] w-full lg:w-[600px] overflow-auto mt-10 lg:mt-16 space-y-5">
         <Completed name="P2E Beta testing" date="16th Jan 2023" />
         <Completed
           name="Migration to upgraded BSC contract"
