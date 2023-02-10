@@ -9,8 +9,8 @@ function Vector({ active }) {
     <div
       className={`${
         active == 1
-          ? "opacity-100 lg:opacity-100 trnas-y-0"
-          : "opacity-0 lg:opacity-100 translate-y-52"
+          ? "opacity-100 lg:opacity-100 translate-y-0"
+          : "opacity-0 lg:opacity-100 translate-y-52 lg:translate-y-0"
       } h-full w-full fixed inset-0 flex items-end justify-end transition-all duration-700`}
     >
       <img

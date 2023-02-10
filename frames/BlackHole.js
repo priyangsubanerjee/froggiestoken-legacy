@@ -126,7 +126,11 @@ function BlackHole() {
           </div>
 
           <div className="grid lg:hidden grid-cols-1 mt-7 lg:mt-16 w-[300px] py-2">
-            <a href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB">
+            <a
+              rel="noopener noreferrer"
+              target={"_blank"}
+              href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB"
+            >
               <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
                 <img
                   src="/images/borderBox.svg"

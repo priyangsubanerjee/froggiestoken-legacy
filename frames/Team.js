@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function Team() {
   return (
-    <div className="lg:w-[65%] lg:p-32 ">
+    <div className="lg:w-[69%] lg:p-32 ">
       <h2 className="lg:block hidden text-primaryGrey text-sm font-medium">
         TEAM
       </h2>
@@ -29,7 +29,11 @@ function Team() {
       <div className="grid grid-cols-2 h-[350px] lg:h-auto w-full lg:grid-cols-5 mt-7 lg:mt-10 gap-0 cursor-pointer overflow-auto deadlineScrollView">
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
-            <img src="/images/crazyx.svg" className="absolute top-0" alt="" />
+            <img
+              src="/images/crazyx.png"
+              className="absolute top-0 h-20"
+              alt=""
+            />
             <div className="px-3">
               <h1 className="mt-24 font-bold text-white text-left uppercase">
                 CRAZYX
@@ -46,7 +50,11 @@ function Team() {
 
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
-            <img src="/images/chopin.svg" className="absolute top-0" alt="" />
+            <img
+              src="/images/chopin.png"
+              className="absolute top-0 h-24"
+              alt=""
+            />
             <div className="px-3">
               <h1 className="mt-24 font-bold text-white text-left uppercase w-20 whitespace-nowrap overflow-hidden text-ellipsis">
                 Chopin
@@ -63,8 +71,8 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/master.svg"
-              className="absolute top-0 right-0"
+              src="/images/master.png"
+              className="absolute top-0 right-0 h-32"
               alt=""
             />
             <div className="px-3">
@@ -81,8 +89,8 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/marco.svg"
-              className="absolute top-0 right-0"
+              src="/images/marco.png"
+              className="absolute top-0 right-0 h-32"
               alt=""
             />
             <div className="px-3">
@@ -99,8 +107,8 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/jochen.svg"
-              className="absolute top-0 right-0"
+              src="/images/jochen.png"
+              className="absolute top-0 right-0 h-32"
               alt=""
             />
             <div className="px-3">
@@ -117,8 +125,8 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/msfro.svg"
-              className="absolute top-0 right-0"
+              src="/images/msfro.png"
+              className="absolute h-24 top-0 right-0"
               alt=""
             />
             <div className="px-3">
@@ -137,8 +145,8 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/stephen.svg"
-              className="absolute top-0 left-0"
+              src="/images/stephen.png"
+              className="absolute h-24 top-0 left-0"
               alt=""
             />
             <div className="px-3">
@@ -155,8 +163,8 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/paul.svg"
-              className="absolute top-0 left-0"
+              src="/images/paul.png"
+              className="absolute h-24 top-0 left-0"
               alt=""
             />
             <div className="px-3">
@@ -166,16 +174,15 @@ function Team() {
               <p className="text-left text-sm text-secondaryGrey">Ambassador</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Every community needs its guardian.
             </p>
           </div>
         </div>
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/lightns.svg"
-              className="absolute top-0 left-0"
+              src="/images/lightns.png"
+              className="absolute top-0 h-24 left-0"
               alt=""
             />
             <div className="px-3">
@@ -185,16 +192,15 @@ function Team() {
               <p className="text-left text-sm text-secondaryGrey">Ambassador</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Every guardian needs support to achieve the best.
             </p>
           </div>
         </div>
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/whale.svg"
-              className="absolute top-0 left-0"
+              src="/images/whale.png"
+              className="absolute top-0 h-24 left-0"
               alt=""
             />
             <div className="px-3">
@@ -204,8 +210,7 @@ function Team() {
               <p className="text-left text-sm text-secondaryGrey">Insider</p>
             </div>
             <p className="hidden group-hover:block text-[11px] leading-6 p-2 font-poppins">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium quod explicabo qui beatae culpa ipsam quo, nisi.
+              Investor and collaborator spreading the message.
             </p>
           </div>
         </div>
