@@ -7,12 +7,14 @@ import React from "react";
 function Audience() {
   return (
     <div className="lg:w-[60%] lg:p-32 ">
-      <h2 className=" text-primaryGrey text-sm font-medium">AUDIENCE</h2>
+      <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
+        AUDIENCE
+      </h2>
       <div className="relative">
-        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase font-berlin">
+        <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           TEAM IS CONSTANTLY
         </h1>
-        <h1 className="text-6xl lg:whitespace-nowrap font-semibold text-white leading-[1.3] uppercase font-berlin">
+        <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           BUILDING; WHATS NEXT?
         </h1>
       </div>
@@ -70,7 +72,7 @@ function Audience() {
       <div className="flex items-baseline mt-16 whitespace-nowrap font-poppins">
         <span>Ready to see even more ? </span>
         <div className="w-20 h-[1px] bg-white"></div>
-        <a href="#4">
+        <a className="hidden lg:inline-block" href="#4">
           <div className="flex items-center relative text-black w-36 ml-5">
             <div className="flex z-10 items-center font-poppins">
               <span>Deeper Dive</span>

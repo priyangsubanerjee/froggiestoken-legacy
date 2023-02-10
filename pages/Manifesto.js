@@ -1,10 +1,10 @@
-import NavbarLight from "@/components/NavbarLight";
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 function Manifesto() {
   return (
     <div id="scrollContent" className="h-screen overflow-auto">
-      <NavbarLight />
+      <Navbar theme="light" />
       <div className="p-32">
         <div className="flex items-center space-x-4">
           <h1 className="text-7xl font-bold uppercase font-berlin">

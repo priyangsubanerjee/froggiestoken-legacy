@@ -4,8 +4,10 @@ import React from "react";
 function AboutUs() {
   return (
     <div className="lg:w-[60%] lg:p-32 ">
-      <h2 className=" text-primaryGrey text-sm font-medium">ABOUT US</h2>
-      <h1 className="text-7xl font-extrabold text-white leading-[1.3] font-berlin">
+      <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
+        ABOUT US
+      </h2>
+      <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
         FROGGIES TO THE SPACE
       </h1>
       <p className="text-sm text-white leading-7 mt-4 font-poppins">
@@ -19,10 +21,10 @@ function AboutUs() {
         an open community and drive a free market. Our team is devoted to
         delivering the best to our holders, and securing a long-term project.
       </p>
-      <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins">
+      <div className="text-sm flex items-baseline mt-10 whitespace-nowrap font-poppins">
         <span>Join us while we build on common goals .</span>
         <div className="w-20 h-[1px] bg-white"></div>
-        <a href="#2">
+        <a className="lg:inline-block hidden" href="#2">
           <div className="flex items-center relative text-black w-44 ml-5">
             <div className="flex z-10 items-center font-poppins">
               <span>Moon</span>

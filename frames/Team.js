@@ -6,8 +6,10 @@ import Typewriter from "typewriter-effect";
 function Team() {
   return (
     <div className="lg:w-[60%] lg:p-32 ">
-      <h2 className=" text-primaryGrey text-sm font-medium">TEAM</h2>
-      <h1 className="text-7xl font-semibold text-white leading-[1.3] uppercase font-berlin">
+      <h2 className="lg:block hidden text-primaryGrey text-sm font-medium">
+        TEAM
+      </h2>
+      <h1 className="text-4xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase">
         The Cosmic Crew
       </h1>
 
@@ -25,7 +27,7 @@ function Team() {
       </p>
 
       <div className="grid grid-cols-3 w-auto lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img src="/images/crazyx.png" className="absolute top-0" alt="" />
             <h1 className="mt-24 font-bold text-white text-center">CRAZYX</h1>
@@ -38,7 +40,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img src="/images/chopin.png" className="absolute top-0" alt="" />
             <h1 className="mt-24 font-bold text-white text-center">CHOPIN</h1>
@@ -51,7 +53,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/master.png"
@@ -68,7 +70,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/marco.png"
@@ -85,7 +87,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/jochen.png"
@@ -102,7 +104,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/msfro.png"
@@ -119,7 +121,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/stephen.png"
@@ -136,7 +138,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/paul.png"
@@ -153,7 +155,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/lightns.png"
@@ -170,7 +172,7 @@ function Team() {
             </p>
           </div>
         </div>
-        <div className="relative h-40 group">
+        <div className="relative h-40 group bg-primaryBg">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
               src="/images/whale.png"
@@ -189,10 +191,10 @@ function Team() {
         </div>
       </div>
 
-      <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins">
+      <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins pb-16">
         <span>Bright Future for $FRGST .</span>
         <div className="w-20 h-[1px] bg-white"></div>
-        <a href="#3">
+        <a className="hidden lg:inline-block" href="#3">
           <div className="flex items-center relative text-black w-96 ml-5">
             <div className="flex z-10 items-center font-poppins">
               <span>Dive into the unknown</span>

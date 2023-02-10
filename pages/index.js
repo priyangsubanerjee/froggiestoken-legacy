@@ -7,17 +7,18 @@ import AboutUs from "@/frames/AboutUs";
 import Team from "@/frames/Team";
 import Audience from "@/frames/Audience";
 import BlackHole from "@/frames/BlackHole";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   const [active, setActive] = useState(1);
   return (
     <div className="h-screen bg-primaryBg overflow-hidden">
-      <NavbarDark />
+      <Navbar hideOnScroll={true} />
       <Vector />
       <NavigationBars active={active} totalBars={4} />
       <div
         id="scrollContent"
-        className="overflow-auto fixed inset-0 scroll-smooth h-full w-full z-0 flex lg:block"
+        className="overflow-auto fixed inset-0 scroll-smooth h-full w-full z-0 flex lg:block snap-x lg:snap-none snap-mandatory"
       >
         <ContentBox count={1} active={active} setActive={setActive}>
           <AboutUs />

@@ -5,7 +5,7 @@ function Vector() {
   return (
     <div className="h-full w-full fixed inset-0 flex items-end justify-end">
       <img
-        className="h-[80%] w-auto object-contain translate-y-[1%]"
+        className="h-64 lg:h-[80%] w-auto object-contain translate-y-[1%]"
         src="/images/frogVector.png"
         alt=""
       />
