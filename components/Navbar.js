@@ -43,7 +43,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
         <img
           src={
             theme === "dark"
-              ? "/images/logoPrimary.svg"
+              ? "/images/logoPrimary.png"
               : "/images/logoSecondary.svg"
           }
           className="w-28"
