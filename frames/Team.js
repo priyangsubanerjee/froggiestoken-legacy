@@ -78,11 +78,11 @@ function Team() {
       <h2 className="lg:block hidden text-primaryGrey text-sm font-medium">
         TEAM
       </h2>
-      <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase mt-5">
+      <h1 className="text-2xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin uppercase mt-5">
         The Cosmic Crew
       </h1>
 
-      <p className="text-sm text-white leading-6 mt-4 font-poppins">
+      <p className="hidden lg:block text-sm text-white leading-6 mt-4 font-poppins">
         Meet the main people behind Froggies{" "}
         <span className="relative h-10 inline-flex items-center w-56 -mr-12 ml-1">
           <img
@@ -293,7 +293,7 @@ function Team() {
               <div
                 key={index}
                 onClick={() => setActive(index)}
-                className={`border border-slate-400 -ml-[1px] relative h-[85px] ${
+                className={`border border-slate-400 -ml-[1px] relative h-[80px] ${
                   active == index ? "bg-blue-900/50" : "bg-transparent"
                 }`}
               >
@@ -309,19 +309,19 @@ function Team() {
           })}
         </div>
         <div className="mt-6">
-          <h1 className="text-xl font-bold text-white font-berlin">
+          <h1 className="text-lg font-bold text-white font-berlin">
             {teamMembers[active].name}
           </h1>
           <p className="text-xs my-2 text-secondaryGrey font-poppins">
             {teamMembers[active].role}
           </p>
-          <p className="font-poppins text-sm leading-6">
+          <p className="font-poppins text-xs leading-6">
             {teamMembers[active].description}
           </p>
         </div>
       </div>
 
-      <div className="hidden lg:flex text-sm items-baseline mt-7 lg:mt-10 whitespace-nowrap font-poppins pb-16">
+      <div className="hidden lg:flex text-xs lg:text-sm items-baseline mt-7 lg:mt-10 whitespace-nowrap font-poppins pb-16">
         <span>Bright Future for $FRGST .</span>
         <div className="w-20 h-[1px] bg-white"></div>
         <a className="hidden lg:inline-block" href="#3">

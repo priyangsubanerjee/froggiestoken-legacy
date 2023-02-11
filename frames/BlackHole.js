@@ -22,10 +22,10 @@ function BlackHole() {
           <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
             BLACK HOLE
           </h2>
-          <h1 className="text-3xl lg:text-7xl font-semibold text-white leading-[1.3] font-berlin uppercase  mt-5">
+          <h1 className="text-2xl lg:text-7xl font-semibold text-white leading-[1.3] font-berlin uppercase  mt-5">
             Into the Black hole
           </h1>
-          <p className="text-sm text-white leading-7 mt-4 font-poppins">
+          <p className="hidden lg:block text-sm text-white leading-7 mt-4 font-poppins">
             Brave the unknown and embark on a journey into a black hole&apos;s
             embrace to uncover secrets beyond reality. Embrace the darkness and
             <span className="inline-flex items-center relative text-black w-96 ml-3">
@@ -208,7 +208,7 @@ function BlackHole() {
             </Link>
           </div>
 
-          <div className="flex items-baseline mt-7 lg:mt-16 whitespace-nowrap uppercase font-bold font-poppins">
+          <div className="flex text-xs lg:text-sm items-baseline mt-7 lg:mt-16 whitespace-nowrap uppercase font-bold font-poppins">
             <span>To the moon and never back .</span>
             <div className="ml-1 w-20 h-[1px] bg-white"></div>
           </div>

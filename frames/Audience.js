@@ -10,16 +10,16 @@ function Audience() {
       <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
         AUDIENCE
       </h2>
-      <div className="relative  mt-5">
-        <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
+      <div className="relative mt-5">
+        <h1 className="text-2xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           TEAM IS CONSTANTLY
         </h1>
-        <h1 className="text-3xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
+        <h1 className="text-2xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
           BUILDING; WHATS NEXT?
         </h1>
       </div>
 
-      <div className="deadlineScrollView h-[300px] w-full lg:w-[600px] overflow-auto mt-10 lg:mt-16 space-y-5">
+      <div className="deadlineScrollView h-[250px] lg:h-[300px] w-full lg:w-[600px] overflow-auto mt-10 lg:mt-16 space-y-5">
         <Completed name="P2E Beta testing" date="16th Jan 2023" />
         <Completed
           name="Migration to upgraded BSC contract"
@@ -69,7 +69,7 @@ function Audience() {
         <ToCome name="More (list will be updated)" date="16th Jan 2023" />
       </div>
 
-      <div className="flex items-baseline mt-16 whitespace-nowrap font-poppins">
+      <div className="flex items-baseline mt-16 text-xs lg:text-base whitespace-nowrap font-poppins">
         <span>Ready to see even more ? </span>
         <div className="w-20 h-[1px] bg-white"></div>
         <a className="hidden lg:inline-block" href="#4">
