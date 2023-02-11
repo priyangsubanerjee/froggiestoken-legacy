@@ -15,7 +15,7 @@ function Manifesto() {
         </div>
         <div className="mt-7 lg:mt-16 h-[2px] bg-gray-200 w-full rounded-md"></div>
         <div className="lg:w-1/2 font-poppins">
-          <p className="text-xs lg:text-sm leading-6 mt-7 lg:mt-16">
+          <p className="text-xs lg:text-sm leading-6 mt-7 lg:mt-16 lg:leading-7">
             Beyond the stars, beyond the night, A future bright, a cosmic sight.{" "}
             <br />
             Vast and endless, the expanse calls, With promise of discovery, and
