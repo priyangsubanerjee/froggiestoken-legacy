@@ -1,53 +1,57 @@
 /* eslint-disable @next/next/no-img-element */
-import NavbarDark from "@/components/NavbarDark";
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 function Astronomics() {
   return (
     <div className="h-screen overflow-auto bg-[#030835]">
-      <NavbarDark />
+      <Navbar />
       <img
         src="/images/frogVector2.png"
-        className="fixed bottom-0 right-0 object-contain -0"
+        className="fixed bottom-0 right-0 object-contain -0 hidden lg:block"
         alt=""
       />
       <div
         id="scrollContent"
-        className="p-32 w-full h-screen fixed inset-0 z-10 overflow-auto"
+        className="lg:p-32 px-5 py-7 w-full h-screen fixed inset-0 z-10 overflow-auto"
       >
         <div className="space-x-4 mt-10">
-          <h1 className="text-7xl text-white font-bold uppercase font-berlin">
+          <h1 className="text-2xl text-center lg:text-left lg:text-7xl text-white font-bold uppercase font-berlin">
             ASTRONOMICS
           </h1>
         </div>
-        <div className="border-y border-[#DCDCDC] mt-7 py-7 w-[60%] flex items-center justify-between">
-          <div className="space-y-4">
-            <h2 className="text-white font-semibold">TOTAL SUPPLY</h2>
-            <h1 className="font-extrabold text-xl uppercase text-secondaryGrey font-berlin">
+        <div className="lg:border-y border-[#DCDCDC] lg:mt-7 py-7 lg:w-[60%] flex flex-col-reverse lg:flex-row items-center justify-between">
+          <div className="space-y-4 text-center lg:text-left mt-8 lg:mt-0">
+            <h2 className="text-white font-semibold text-sm lg:text-base">
+              TOTAL SUPPLY
+            </h2>
+            <h1 className="font-extrabold text-base lg:text-xl uppercase text-secondaryGrey font-berlin">
               100 Quadrillion
             </h1>
-            <h2 className="text-white font-bold">Launch date - 24/10/23</h2>
-            <h1 className="font-extrabold text-xl uppercase text-secondaryGrey font-berlin">
+            <h2 className="text-white font-bold text-sm lg:text-base">
+              Launch date - 24/10/23
+            </h2>
+            <h1 className="font-extrabold text-base lg:text-xl uppercase text-secondaryGrey font-berlin">
               246 Days : 6 hrs : 17 mins
             </h1>
           </div>
-          <div className="w-[300px] h-[140px] border border-[#DCDCDC] rounded-md flex flex-col items-center justify-center relative">
+          <div className="w-[200px] h-[100px] lg:w-[300px] lg:h-[140px] border border-[#DCDCDC] rounded-md flex flex-col items-center justify-center relative">
             <img
               src="/images/burnw1.svg"
-              className="absolute bottom-0 -left-0"
+              className="absolute bottom-0 -left-0 h-full"
               alt=""
             />
             <img
               src="/images/burnw2.svg"
-              className="absolute top-0 -right-0"
+              className="absolute top-0 -right-0 h-full"
               alt=""
             />
             <h1 className="text-white uppercase font-semibold">Total burn</h1>
             <img src="/images/87p.svg" className="h-7 mt-4" alt="" />
           </div>
         </div>
-        <div className="w-[600px]">
-          <div className="grid grid-cols-2 mt-16 bg-red-50/10">
+        <div className="lg:w-[600px] scale-75 -mt-20 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 bg-red-50/10 w-[300px] mx-auto">
             <div className="h-20 w-full relative flex items-center justify-center overflow-hidden cursor-pointer text-white">
               <img
                 src="/images/borderBox.svg"
@@ -61,7 +65,7 @@ function Astronomics() {
             <div className="relative h-20 flex items-center justify-center overflow-hidden cursor-pointer text-white">
               <img
                 src="/images/borderBox.svg"
-                className="absolute -left-1 -bottom-1"
+                className="absolute lg:-left-1 lg:-bottom-1"
                 alt=""
               />
               <h1 className="font-poppins uppercase mt-[6px]">
@@ -81,7 +85,7 @@ function Astronomics() {
             <div className="h-20 relative flex items-center justify-center overflow-hidden cursor-pointer text-white">
               <img
                 src="/images/borderBox.svg"
-                className="absolute -left-1"
+                className="absolute lg:-left-1"
                 alt=""
               />
               <h1 className="font-poppins uppercase mt-[6px]">
