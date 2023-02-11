@@ -1,22 +1,23 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import NavbarDark from "@/components/NavbarDark";
+
+import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import React from "react";
 
 function Sitemap() {
   return (
     <div id="scrollContent" className="h-screen overflow-auto">
-      <NavbarDark />
-      <div className="h-[350px] bg-[#030835] p-32">
-        <h1 className="text-7xl text-white font-bold mt-16 font-berlin">
+      <Navbar />
+      <div className="h-fit lg:h-[350px] bg-[#030835] px-5 py-7 lg:p-32">
+        <h1 className="text-2xl lg:text-7xl text-white font-bold mt-16 font-berlin">
           SITEMAP
         </h1>
       </div>
-      <div className="px-44 py-16 flex">
-        <div className="flex space-x-20 mx-auto">
+      <div className="px-5 lg:px-44 py-8 lg:py-16 flex">
+        <div className="flex flex-col lg:flex-row lg:space-x-20 space-y-10 lg:space-y-0 lg:mx-auto">
           <div>
-            <h1 className="font-bold text-2xl uppercase">ABOUT</h1>
-            <ul className="space-y-2 mt-4 text-base">
+            <h1 className="font-bold text-lg lg:text-2xl uppercase">ABOUT</h1>
+            <ul className="space-y-2 mt-4 text-sm lg:text-base">
               <li className="font-poppins">Stellar Doc</li>
               <li className="font-poppins">
                 <a rel="noopener noreferrer" href="/Manifesto">
@@ -42,7 +43,9 @@ function Sitemap() {
             </ul>
           </div>
           <div>
-            <h1 className="font-bold text-2xl uppercase">Interstellar</h1>
+            <h1 className="font-bold text-lg lg:text-2xl uppercase">
+              Interstellar
+            </h1>
             <ul className="space-y-2 mt-4 text-base">
               <li className="font-poppins">
                 <a
@@ -92,8 +95,10 @@ function Sitemap() {
             </ul>
           </div>
           <div>
-            <h1 className="font-bold text-2xl uppercase">Listings</h1>
-            <ul className="space-y-2 mt-4 text-base">
+            <h1 className="font-bold text-lg lg:text-2xl uppercase">
+              Listings
+            </h1>
+            <ul className="space-y-2 mt-4 text-sm lg:text-base">
               <li className="font-poppins">
                 <a
                   rel="noopener noreferrer"
@@ -118,8 +123,8 @@ function Sitemap() {
             </ul>
           </div>
           <div className="">
-            <h1 className="font-bold text-2xl uppercase">Socials</h1>
-            <ul className="space-y-2 mt-4 text-base">
+            <h1 className="font-bold text-lg lg:text-2xl uppercase">Socials</h1>
+            <ul className="space-y-2 mt-4 text-sm lg:text-base">
               <li className="font-poppins">
                 <a href="https://t.me/officialfroggiestoken">
                   Official Telegram
