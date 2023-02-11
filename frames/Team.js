@@ -1,9 +1,78 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 
 function Team() {
+  const [active, setActive] = useState(0);
+
+  const teamMembers = [
+    {
+      name: "CrazyX",
+      role: "Core Community",
+      image: "/images/crazyx.png",
+      description:
+        "Even in space there are peculiar creatures, CrazyX is one of them.",
+    },
+    {
+      name: "Chopin",
+      role: "Core Marketing",
+      image: "/images/chopin.png",
+      description: "Knows the demands of the interplanetary species.",
+    },
+    {
+      name: "Master of Token",
+      role: "Founder",
+      image: "/images/master.png",
+      description: "The Goat of the entire combination of Stellar Systems",
+    },
+    {
+      name: "Marco",
+      role: "Design",
+      image: "/images/marco.png",
+      description:
+        "Earth is not the only place where assets need to be persuasive. ",
+    },
+    {
+      name: "Orbital Engineer",
+      role: "Developer",
+      image: "/images/jochen.png",
+      description: "Providing external space-life with equations and coding.",
+    },
+    {
+      name: "Froggies Dev",
+      role: "Developer/collaborations",
+      image: "/images/jochen.png",
+      description:
+        "Throwing out lines to different planets to secure collaborations.",
+    },
+    {
+      name: "Miss Froggies",
+      role: "Community Manager",
+      image: "/images/msfro.png",
+      description: "Also in cosmos there are strong women needed.",
+    },
+    {
+      name: "Paul",
+      role: "Ambassador",
+      image: "/images/paul.png",
+      description:
+        "Throwing out lines to different planets to secure collaborations.",
+    },
+    {
+      name: "Lightns",
+      role: "Ambassador",
+      image: "/images/lightns.png",
+      description: "Every guardian needs support to achieve the best.",
+    },
+    {
+      name: "Whale",
+      role: "Insider",
+      image: "/images/lightns.png",
+      description: "Investor and collaborator spreading the message.",
+    },
+  ];
+
   return (
     <div className="lg:w-[69%] lg:p-32 ">
       <h2 className="lg:block hidden text-primaryGrey text-sm font-medium">
@@ -26,7 +95,7 @@ function Team() {
         lower gravity and increase lift off.
       </p>
 
-      <div className="grid grid-cols-3 w-auto h-[350px] lg:h-auto overflow-auto lg:overflow-visible lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
+      <div className="hidden lg:grid grid-cols-3 w-auto h-[350px] lg:h-auto overflow-auto lg:overflow-visible lg:grid-cols-5 mt-10 gap-0 cursor-pointer">
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
@@ -125,7 +194,7 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/msfro.png"
+              src="/images/jochen.png"
               className="absolute h-24 top-0 right-0"
               alt=""
             />
@@ -145,7 +214,7 @@ function Team() {
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-10 w-full overflow-hidden border border-white/20 transition-all">
             <img
-              src="/images/stephen.png"
+              src="/images/msfro.png"
               className="absolute h-24 top-0 left-0"
               alt=""
             />
@@ -160,6 +229,7 @@ function Team() {
             </p>
           </div>
         </div>
+
         <div className="relative h-40 group ">
           <div className="absolute inset-0 h-full group-hover:h-80 group-hover:bg-[#040a42] group-hover:z-20 w-full overflow-hidden border border-white/20 transition-all">
             <img
@@ -216,7 +286,42 @@ function Team() {
         </div>
       </div>
 
-      <div className="flex items-baseline mt-10 whitespace-nowrap font-poppins pb-16">
+      <div className="mt-7 lg:hidden">
+        <div className="grid grid-cols-4">
+          {teamMembers.map((member, index) => {
+            return (
+              <div
+                key={index}
+                onClick={() => setActive(index)}
+                className={`border border-slate-400 -ml-[1px] relative h-[85px] ${
+                  active == index ? "bg-blue-900/50" : "bg-transparent"
+                }`}
+              >
+                <img
+                  src={member.image}
+                  className={`h-20 absolute inset-0 ${
+                    active == index ? "z-10 translate-y-1" : "z-0 translate-y-0"
+                  }} transition-all duration-500 ease-in-out`}
+                  alt=""
+                />
+              </div>
+            );
+          })}
+        </div>
+        <div className="mt-6">
+          <h1 className="text-xl font-bold text-white font-berlin">
+            {teamMembers[active].name}
+          </h1>
+          <p className="text-xs my-2 text-secondaryGrey font-poppins">
+            {teamMembers[active].role}
+          </p>
+          <p className="font-poppins text-sm leading-6">
+            {teamMembers[active].description}
+          </p>
+        </div>
+      </div>
+
+      <div className="hidden lg:flex text-sm items-baseline mt-7 lg:mt-10 whitespace-nowrap font-poppins pb-16">
         <span>Bright Future for $FRGST .</span>
         <div className="w-20 h-[1px] bg-white"></div>
         <a className="hidden lg:inline-block" href="#3">
