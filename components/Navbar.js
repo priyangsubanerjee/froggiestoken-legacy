@@ -5,9 +5,11 @@ import React, { useState, useEffect } from "react";
 import { Popover } from "@headlessui/react";
 import InterStellarParentModal from "./InterStellarParentModal";
 import { Fade } from "react-awesome-reveal";
+import ExpandedNav from "./ExpandedNav";
 
 function Navbar({ theme = "dark", hideOnScroll = true }) {
   const [show, setShow] = useState(true);
+  const [ExpandedOpen, setExpandedOpen] = useState(false);
   const [inerStellarModalOpen, setInerStellarModalOpen] = useState(false);
 
   const controlNavbar = () => {
@@ -35,7 +37,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
 
   return (
     <div
-      className={`flex items-center  px-5 lg:px-[80px] py-7 lg:py-0 lg:top-10 z-20 fixed ${
+      className={`flex items-center  px-5 lg:px-[80px] py-4 lg:py-0 top-0 inset-x-0 lg:top-10 z-20 fixed ${
         show ? "opacity-100" : " opacity-0"
       } bg-transparent inset-x-0 transition-all`}
     >
@@ -46,7 +48,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
               ? "/images/logoPrimary.png"
               : "/images/logoSecondary.svg"
           }
-          className="w-28"
+          className="w-20 lg:w-28"
           alt=""
         />
       </Link>
@@ -195,16 +197,20 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
         </li>
       </ul>
       <button
+        onClick={() => {
+          setExpandedOpen(true);
+        }}
         className={`${
           theme == "dark" ? "text-white" : "text-black"
         } lg:hidden ml-auto`}
       >
-        <iconify-icon height="30" width="30" icon="gg:menu-left"></iconify-icon>
+        <iconify-icon height="24" width="24" icon="gg:menu-left"></iconify-icon>
       </button>
       <InterStellarParentModal
         inerStellarModalOpen={inerStellarModalOpen}
         setInerStellarModalOpen={setInerStellarModalOpen}
       />
+      {ExpandedOpen && <ExpandedNav setExpandedOpen={setExpandedOpen} />}
     </div>
   );
 }

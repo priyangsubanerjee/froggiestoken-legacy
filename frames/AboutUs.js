@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div className="lg:w-[60%] lg:p-32 ">
+    <div className="lg:w-[60%] lg:p-32 p-0">
       <h2 className="hidden lg:inline-block text-primaryGrey text-sm font-medium">
         ABOUT US
       </h2>
