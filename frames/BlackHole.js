@@ -148,7 +148,7 @@ function BlackHole() {
                 </div>
               </div>
             </a>
-            <Link href="/InterStellar">
+            <Link rel="noreferrer" target={"_blank"} href="/InterStellar">
               <div className="relative h-20 flex items-center overflow-hidden cursor-pointer">
                 <img
                   src="/images/borderBox.svg"
@@ -170,25 +170,25 @@ function BlackHole() {
                 </div>
               </div>
             </Link>
-            <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
-              <img
-                src="/images/borderBox.svg"
-                className="absolute inset-0 -top-1"
-                alt=""
-              />
-              <div className="w-[30%]">
-                <img src="/images/manifesto.png" className="mt-5" alt="" />
-              </div>
-              <Link href="/Manifesto">
+            <Link rel="noreferrer" target={"_blank"} href="/Manifesto">
+              <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
+                <img
+                  src="/images/borderBox.svg"
+                  className="absolute inset-0 -top-1"
+                  alt=""
+                />
+                <div className="w-[30%]">
+                  <img src="/images/manifesto.png" className="mt-5" alt="" />
+                </div>
                 <div className="ml-6">
                   <h1 className="font-bold uppercase">Manifesto</h1>
                   <p className="text-sm text-secondaryGrey font-poppins">
                     Short cosmic trip
                   </p>
                 </div>
-              </Link>
-            </div>
-            <Link href="/Astronomics">
+              </div>
+            </Link>
+            <Link rel="noreferrer" target={"_blank"} href="/Astronomics">
               <div className="h-20 relative flex items-center  overflow-hidden cursor-pointer -mt-1">
                 <img
                   src="/images/borderBox.svg"

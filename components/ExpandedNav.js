@@ -82,24 +82,36 @@ function ExpandedNav({ setExpandedOpen }) {
             <Menu.Items>
               <ul className="text-xs text-primaryGrey space-y-5 mt-5 bg-white/10 p-5">
                 <li>
-                  <Link href={"/Partners"}>
+                  <Link target={"_blank"} href={"/Partners"}>
                     <span>Partners</span>
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/Sitemap"}>Sitemap</Link>
+                  <Link target={"_blank"} href={"/Sitemap"}>
+                    Sitemap
+                  </Link>
                 </li>
                 <li>
-                  <Link href={`/Astronomics`}>Astronomics</Link>
+                  <Link target={"_blank"} href={`/Astronomics`}>
+                    Astronomics
+                  </Link>
                 </li>
                 <li>
-                  <Link href={`/FAQ`}>FAQ</Link>
-                </li>
-                <li>
-                  <Link href={`https://nanuqe.com/froggies-token/`}>KYC</Link>
+                  <Link target={"_blank"} href={`/FAQ`}>
+                    FAQ
+                  </Link>
                 </li>
                 <li>
                   <Link
+                    target={"_blank"}
+                    href={`https://nanuqe.com/froggies-token/`}
+                  >
+                    KYC
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    target={"_blank"}
                     href={`https://bscscan.com/token/0x7029994f28fd39ff934a96b25591d250a2183f67`}
                   >
                     BSC Scan
@@ -107,13 +119,17 @@ function ExpandedNav({ setExpandedOpen }) {
                 </li>
                 <li>
                   <Link
+                    target={"_blank"}
                     href={`https://www.coingecko.com/en/coins/froggies-token`}
                   >
                     Coin Gecko
                   </Link>
                 </li>
                 <li>
-                  <Link href={`https://coinmarketcap.com/currencies/froggies/`}>
+                  <Link
+                    target={"_blank"}
+                    href={`https://coinmarketcap.com/currencies/froggies/`}
+                  >
                     CMC
                   </Link>
                 </li>
@@ -122,14 +138,17 @@ function ExpandedNav({ setExpandedOpen }) {
           </Menu>
         </li>
         <li>
-          <Link href={"https://t.me/officialfroggiestoken"}>
+          <Link target={"_blank"} href={"https://t.me/officialfroggiestoken"}>
             <div>
               <span>Telegram</span>
             </div>
           </Link>
         </li>
         <li>
-          <Link href={"https://www.twitter.com/froggiestoken/"}>
+          <Link
+            target={"_blank"}
+            href={"https://www.twitter.com/froggiestoken/"}
+          >
             <div>
               <span>Twitter</span>
             </div>
