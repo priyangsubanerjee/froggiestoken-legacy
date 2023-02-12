@@ -68,7 +68,7 @@ function Team() {
     {
       name: "Whale",
       role: "Insider",
-      image: "/images/lightns.png",
+      image: "/images/whale.png",
       description: "Investor and collaborator spreading the message.",
     },
   ];
