@@ -9,22 +9,22 @@ function FuelingSuccess({
   return (
     <div>
       {fuelingSuccessModalOpen && (
-        <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 p-16 overflow-auto">
+        <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 px-5 py-7 lg:p-16 overflow-auto">
           {standAlone == false && (
             <div>
               <img
                 onClick={() => setFuelingSuccessModalOpen(false)}
                 src="/images/hamburger.png"
-                className="h-5 cursor-pointer"
+                className="h-3 lg:h-5 cursor-pointer"
                 alt=""
               />
             </div>
           )}
-          <div className="mt-16 w-[65%]">
-            <h1 className="uppercase text-5xl text-white font-extrabold">
+          <div className="mt-7 lg:mt-16 lg:w-[65%]">
+            <h1 className="uppercase text-2xl lg:text-5xl text-white font-extrabold">
               fueling success
             </h1>
-            <div className="mt-10 text-white space-y-8">
+            <div className="mt-10 text-white space-y-8 text-sm lg:text-base">
               <div>
                 <div className="flex items-center font-poppins text-white space-x-2">
                   <span className="underline">
@@ -110,7 +110,7 @@ function FuelingSuccess({
           </div>
           <img
             src="/images/fuelingSuccess.svg"
-            className={`fixed bottom-0 right-0  transition-all duration-700}`}
+            className={`fixed bottom-0 right-0  transition-all duration-700 hidden lg:block`}
             alt=""
           />
         </div>

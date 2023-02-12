@@ -51,7 +51,7 @@ function InterStellarParentModal({
                 ></iconify-icon>
               </span>
             </div>
-            <div className="text-5xl font-extrabold text-[#424242] text-center uppercase space-y-16 mt-6">
+            <div className="text-2xl lg:text-5xl font-extrabold text-[#424242] text-center uppercase space-y-16 mt-6">
               <h1
                 onClick={() => setFuelingSuccessModalOpen(true)}
                 onMouseEnter={() => {

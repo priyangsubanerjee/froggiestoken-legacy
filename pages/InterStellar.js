@@ -3,7 +3,7 @@ import React from "react";
 
 function InterStellar() {
   return (
-    <div>
+    <div id="scrollContent">
       <InterStellarParentModal
         inerStellarModalOpen={true}
         setInerStellarModalOpen={() => {}}

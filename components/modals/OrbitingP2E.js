@@ -9,22 +9,22 @@ function FuelingSuccess({
   return (
     <div>
       {orbitingP2EModalOpen && (
-        <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 p-16 overflow-auto">
+        <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 lg:p-16 px-5 py-7 overflow-auto">
           {standAlone == false && (
             <div>
               <img
                 onClick={() => setOrbitingP2EModalOpen(false)}
                 src="/images/hamburger.png"
-                className="h-5 cursor-pointer"
+                className="h-3 lg:h-5 cursor-pointer"
                 alt=""
               />
             </div>
           )}
-          <div className="mt-16 w-[65%]">
-            <h1 className="uppercase text-5xl text-white font-extrabold">
+          <div className="mt-7 lg:mt-16 lg:w-[65%]">
+            <h1 className="uppercase text-2xl lg:text-5xl text-white font-extrabold">
               orbiting p2e
             </h1>
-            <div className="mt-10 text-white space-y-8">
+            <div className="mt-10 text-white space-y-8 text-sm lg:text-base">
               <div>
                 <p className="mt-1 leading-7">
                   Continuous development of our P2E <br /> More functionalities,
@@ -48,7 +48,7 @@ function FuelingSuccess({
           </div>
           <img
             src="/images/orbitingP2e.svg"
-            className={`fixed bottom-0 right-0  transition-all duration-700}`}
+            className={`fixed bottom-0 right-0 transition-all duration-700 hidden lg:block`}
             alt=""
           />
         </div>

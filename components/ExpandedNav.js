@@ -5,7 +5,7 @@ import React from "react";
 
 function ExpandedNav({ setExpandedOpen }) {
   return (
-    <div className="fixed inset-0 bg-primaryBg h-full w-full z-40 overflow-auto py-5">
+    <div className="fixed inset-0 bg-primaryBg h-full w-full z-40 overflow-auto py-5 flex flex-col">
       <div className="flex py-4 px-5 items-center fixed top-0 inset-x-0">
         <Link href={"/"}>
           <img src={"/images/logoPrimary.png"} className="w-20" alt="" />
@@ -23,22 +23,25 @@ function ExpandedNav({ setExpandedOpen }) {
           ></iconify-icon>
         </button>
       </div>
-      <ul className="flex mt-12 flex-col items-center justify-center text-white font-poppins space-y-9">
+      <ul className="flex my-auto flex-col items-center justify-center text-white font-poppins space-y-9">
         <li>
           <Link href={"https://www.everlost.io/"}>
             <img src="/images/everlostLight.svg" className="h-4" alt="" />
           </Link>
         </li>
+
         <li>
-          <Link href={"/Interstellar"}>
+          <Link href={"/InterStellar"}>
             <span>Interstellar</span>
           </Link>
         </li>
+
         <li>
           <Link href={"/Manifesto"}>
             <span>Manifesto</span>
           </Link>
         </li>
+
         <li className="text-center">
           <Menu>
             <Menu.Button>Buy</Menu.Button>
@@ -73,23 +76,22 @@ function ExpandedNav({ setExpandedOpen }) {
         </li>
 
         <li>
-          <Link href={"/Interstellar"}></Link>
+          <Link href={"/InterStellar"}></Link>
           <span>Stellar Doc</span>
         </li>
+
         <li className="text-center">
           <Menu>
             <Menu.Button>More</Menu.Button>
             <Menu.Items>
               <ul className="text-xs text-primaryGrey space-y-5 mt-5 bg-white/10 p-5">
                 <li>
-                  <Link target={"_blank"} href={"/Partners"}>
+                  <Link href={"/Partners"}>
                     <span>Partners</span>
                   </Link>
                 </li>
                 <li>
-                  <Link target={"_blank"} href={"/Sitemap"}>
-                    Sitemap
-                  </Link>
+                  <Link href={"/Sitemap"}>Sitemap</Link>
                 </li>
                 <li>
                   <Link target={"_blank"} href={`/Astronomics`}>
@@ -97,9 +99,7 @@ function ExpandedNav({ setExpandedOpen }) {
                   </Link>
                 </li>
                 <li>
-                  <Link target={"_blank"} href={`/FAQ`}>
-                    FAQ
-                  </Link>
+                  <Link href={`/FAQ`}>FAQ</Link>
                 </li>
                 <li>
                   <Link
@@ -137,6 +137,7 @@ function ExpandedNav({ setExpandedOpen }) {
             </Menu.Items>
           </Menu>
         </li>
+
         <li>
           <Link target={"_blank"} href={"https://t.me/officialfroggiestoken"}>
             <div>
@@ -144,6 +145,7 @@ function ExpandedNav({ setExpandedOpen }) {
             </div>
           </Link>
         </li>
+
         <li>
           <Link
             target={"_blank"}
