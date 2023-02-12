@@ -10,7 +10,7 @@ function Panel({ state, setState, index, question, answer }) {
           setState(index);
         }
       }}
-      className="text-white border-b border-slate-600 px-5 py-5 cursor-pointer"
+      className="text-white border-b border-slate-600 lg:px-5 py-5 cursor-pointer"
     >
       <div className="flex items-center w-full">
         <h1 className="mr-auto font-poppins font-medium">{question}</h1>

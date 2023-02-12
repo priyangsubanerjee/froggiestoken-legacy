@@ -1,21 +1,20 @@
-import NavbarDark from "@/components/NavbarDark";
 import React, { useState, useEffect } from "react";
-
 import Panel from "@/components/faq/panel";
+import Navbar from "@/components/Navbar";
 
 function FAQ() {
   const [state, setState] = useState(null);
 
   return (
     <div id="scrollContent" className="h-screen overflow-auto bg-primaryBg">
-      <NavbarDark />
-      <div className="p-32">
+      <Navbar />
+      <div className="lg:p-32 py-14 px-5">
         <div className="flex items-center space-x-4 mt-10">
-          <h1 className="text-5xl text-white font-bold uppercase font-berlin">
+          <h1 className="text-2xl lg:text-5xl text-white font-bold uppercase font-berlin">
             Frequently asked questions
           </h1>
         </div>
-        <div className="mt-10 px-32">
+        <div className="mt-6 lg:mt-10 px-0 lg:px-32">
           <Panel
             index={1}
             state={state}

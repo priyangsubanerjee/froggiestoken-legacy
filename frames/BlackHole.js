@@ -148,7 +148,7 @@ function BlackHole() {
                 </div>
               </div>
             </a>
-            <Link rel="noreferrer" target={"_blank"} href="/InterStellar">
+            <a rel="noreferrer" target={"_blank"} href="/InterStellar">
               <div className="relative h-20 flex items-center overflow-hidden cursor-pointer">
                 <img
                   src="/images/borderBox.svg"
@@ -169,8 +169,8 @@ function BlackHole() {
                   </p>
                 </div>
               </div>
-            </Link>
-            <Link rel="noreferrer" target={"_blank"} href="/Manifesto">
+            </a>
+            <a rel="noreferrer" target={"_blank"} href="/Manifesto">
               <div className="h-20 relative flex items-center overflow-hidden cursor-pointer">
                 <img
                   src="/images/borderBox.svg"
@@ -187,8 +187,8 @@ function BlackHole() {
                   </p>
                 </div>
               </div>
-            </Link>
-            <Link rel="noreferrer" target={"_blank"} href="/Astronomics">
+            </a>
+            <a rel="noreferrer" target={"_blank"} href="/Astronomics">
               <div className="h-20 relative flex items-center  overflow-hidden cursor-pointer -mt-1">
                 <img
                   src="/images/borderBox.svg"
@@ -205,7 +205,7 @@ function BlackHole() {
                   </p>
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
 
           <div className="flex text-xs lg:text-sm items-baseline mt-7 lg:mt-16 whitespace-nowrap uppercase font-bold font-poppins">
