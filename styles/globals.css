@@ -6,6 +6,12 @@
 @tailwind utilities;
 
 @layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
   @font-face {
     font-family: Berlin;
     font-weight: 800;
@@ -46,4 +52,9 @@ li {
 .deadlineScrollView::-webkit-scrollbar-thumb {
   background: #e6e7ec;
   border-radius: 50px;
+}
+
+.font-outline {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }

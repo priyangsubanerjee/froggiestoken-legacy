@@ -47,11 +47,13 @@ function Astronomics() {
               alt=""
             />
             <h1 className="text-white uppercase font-semibold">Total burn</h1>
-            <img src="/images/87p.svg" className="h-7 mt-4" alt="" />
+            <h1 className="text-5xl text-white/0 font-semibold font-berlin mt-2 font-outline">
+              87%
+            </h1>
           </div>
         </div>
         <div className="lg:w-[600px] scale-75 lg:scale-100 -mt-20 lg:mt-10 w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 bg-red-50/10 w-[300px] lg:w-full mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 mt-16 w-[300px] lg:w-full mx-auto">
             <div className="h-20 w-full relative flex items-center justify-center overflow-hidden cursor-pointer text-white">
               <img
                 src="/images/borderBox.svg"
