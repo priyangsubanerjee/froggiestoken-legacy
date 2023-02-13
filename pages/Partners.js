@@ -123,63 +123,63 @@ function Partners() {
             <div className="-rotate-90">
               <img
                 src="/partners/marketwatch.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/digitaljournal.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/coinmarketcap.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/forbes.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/cointelegraph.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/pancakeswap.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/newsfile.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/coinsbit.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
             <div className="-rotate-90">
               <img
                 src="/partners/coinlore.png"
-                className="h-32 grayscale"
+                className="h-24 grayscale"
                 alt=""
               />
             </div>
