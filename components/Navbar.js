@@ -46,7 +46,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
           src={
             theme === "dark"
               ? "/images/logoPrimary.png"
-              : "/images/logoSecondary.svg"
+              : "/images/logoSecondary.png"
           }
           className="w-20 lg:w-28"
           alt=""

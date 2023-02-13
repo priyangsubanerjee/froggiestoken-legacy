@@ -9,7 +9,7 @@ function ToCome({ name, date }) {
           <img src="/images/grayCheck.png" className="h-5 shrink-0" alt="" />
         </div>
         <div>
-          <h1 className="font-poppins text-white line-through text-xs lg:text-base">
+          <h1 className="font-poppins text-white  text-xs lg:text-base">
             {name}
           </h1>
           <p className="text-[10px] lg:text-sm text-secondaryGrey">{date}</p>
