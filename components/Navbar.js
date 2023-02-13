@@ -199,16 +199,16 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
             </Popover.Button>
             <Popover.Panel className="absolute left-1/2 top-10 rounded p-4 -translate-x-1/2 z-10 bg-slate-900 w-44 h-fit">
               <div className={`flex flex-col space-y-3 text-white`}>
-                <Link rel="noreferrer" target={"_blank"} href="/Partners">
+                <Link rel="noreferrer" href="/Partners">
                   Partners
                 </Link>
-                <Link rel="noreferrer" target={"_blank"} href="/Sitemap">
+                <Link rel="noreferrer" href="/Sitemap">
                   Sitemap
                 </Link>
-                <Link rel="noreferrer" target={"_blank"} href="/Astronomics">
+                <Link rel="noreferrer" href="/Astronomics">
                   Astronomics
                 </Link>
-                <Link rel="noreferrer" target={"_blank"} href="/FAQ">
+                <Link rel="noreferrer" href="/FAQ">
                   FAQ
                 </Link>
                 <a
