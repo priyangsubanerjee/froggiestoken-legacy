@@ -2,7 +2,9 @@
 /* eslint-disable @next/next/no-img-element */
 import InterStellarParentModal from "@/components/InterStellarParentModal";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { Cheerio } from "cheerio";
 
 function BlackHole() {
   return (

@@ -1,8 +1,24 @@
 /* eslint-disable @next/next/no-img-element */
 import Navbar from "@/components/Navbar";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 function Astronomics() {
+  const [burntAmount, setBurntAmount] = useState(0);
+  useEffect(() => {
+    (async () => {
+      const axiosResponse = await axios.request({
+        method: "GET",
+        url: "https://frog-web-scraper.vercel.app/",
+      });
+      const circulatingSupply = axiosResponse.data.circulatingSupply;
+      const burntAmount = 100000000000000000000000000000 - circulatingSupply;
+      const percentageBurnt =
+        (burntAmount / 100000000000000000000000000000) * 100;
+      setBurntAmount(percentageBurnt.toFixed(2));
+    })();
+  }, []);
+
   return (
     <div className="h-screen overflow-auto bg-[#030835]">
       <Navbar />
@@ -48,7 +64,7 @@ function Astronomics() {
             />
             <h1 className="text-white uppercase font-semibold">Total burn</h1>
             <h1 className="text-5xl text-white/0 font-semibold font-berlin mt-2 font-outline">
-              87%
+              {burntAmount}%
             </h1>
           </div>
         </div>
