@@ -19,7 +19,7 @@ function Partners() {
           <h1 className="text-xl lg:text-5xl font-medium leading-[1.4] font-berlin">
             Uniting Forces to Reach for the Stars
           </h1>
-          <p className="text-xs lg:text-sm text-[#010417] leading-6 mt-5">
+          <p className="text-xs lg:text-sm text-[#010417] leading-6 mt-5 font-poppins">
             Even in the far Galaxies permanent foundations are created through
             interplanetary connections, think of the stars; Sagittarius, Leo,
             Taurus. <br />

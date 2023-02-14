@@ -9,24 +9,24 @@ function FuelingSuccess({
   return (
     <div>
       {expandingHorizonsModalOpen && (
-        <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 p-16 overflow-auto">
+        <div className="bg-[#010417] fixed inset-0 h-full w-full z-30 px-5 py-7 lg:p-16 overflow-auto">
           {standAlone == false && (
             <div>
               <img
                 onClick={() => setExpandingHorizonsModalOpen(false)}
                 src="/images/hamburger.png"
-                className="h-5 cursor-pointer"
+                className="h-3 lg:h-5 cursor-pointer"
                 alt=""
               />
             </div>
           )}
-          <div className="mt-16 w-[65%]">
-            <h1 className="uppercase text-5xl text-white font-extrabold">
+          <div className="mt-7 lg:mt-16 w-[65%]">
+            <h1 className="uppercase text-2xl lg:text-5xl text-white font-extrabold">
               Expanding Horizons
             </h1>
             <div className="mt-10 text-white space-y-8">
               <div>
-                <p className="mt-1 leading-7 font-poppins">
+                <p className="mt-1 leading-7 font-poppin text-sm lg:text-bases">
                   Sharing value <br /> By marketing and developing of our
                   &apos;Ultimate Destination&apos; project, the universe <br />{" "}
                   will be enlightened with our plans, all eyes will be on
