@@ -27,21 +27,29 @@ function FuelingSuccess({
             <div className="mt-10 text-white space-y-8 text-sm lg:text-base">
               <div>
                 <p className="mt-1 leading-7">
-                  Continuous development of our P2E <br /> More functionalities,
-                  visuals, levels, and gameplay will be added to Everlost.{" "}
+                  <span className="underline">
+                    Continuous development of our P2E
+                  </span>
+                  <br /> More functionalities, visuals, levels, and gameplay
+                  will be added to Everlost. <br />
                   <br />
+                  <span className="underline">Staking platform release</span>
+                  <br /> The time has arrived to reward those that believe in
+                  us. Stake your FROGGIES <br /> Token and gain more rewards
+                  with time. <br />
                   <br />
-                  Staking platform release <br /> The time has arrived to reward
-                  those that believe in us. Stake your FROGGIES <br /> Token and
-                  gain more rewards with time. <br />
-                  <br /> Space Entertainment <br /> We are planning and
-                  development of our entertainment platform. This platform{" "}
-                  <br /> will allow our holders to use their Froggies Token for
-                  means of entertainment and <br /> more game play. <br />
-                  <br /> Share our wealth from Galaxy <br /> We are aiming for a
-                  listing on a top 50 Centralized Exchange to allow more <br />{" "}
-                  $FRGST to be traded and increase our overall volume and
-                  exposure.
+                  <span className="underline">Space Entertainment</span>
+                  <br /> We are planning and development of our entertainment
+                  platform. This platform <br /> will allow our holders to use
+                  their Froggies Token for means of entertainment and <br />{" "}
+                  more game play. <br />
+                  <br />{" "}
+                  <span className="underline">
+                    Share our wealth from Galaxy
+                  </span>
+                  <br /> We are aiming for a listing on a top 50 Centralized
+                  Exchange to allow more <br /> $FRGST to be traded and increase
+                  our overall volume and exposure.
                 </p>
               </div>
             </div>
