@@ -20,25 +20,30 @@ function FuelingSuccess({
               />
             </div>
           )}
-          <div className="mt-7 lg:mt-16 w-[65%]">
+          <div className="mt-7 lg:mt-16 lg:w-[65%]">
             <h1 className="uppercase text-2xl lg:text-5xl text-white font-extrabold">
               Expanding Horizons
             </h1>
             <div className="mt-10 text-white space-y-8">
               <div>
                 <p className="mt-1 leading-7 font-poppin text-sm lg:text-bases">
-                  Sharing value <br /> By marketing and developing of our
-                  &apos;Ultimate Destination&apos; project, the universe <br />{" "}
-                  will be enlightened with our plans, all eyes will be on
-                  FROGGIES Token. <br />
-                  <br /> Valued on all planets <br /> We will continue
-                  collaborations with third parties to turn FROGGIES Token into
-                  a <br /> means of real-life payments. Envision online stores
-                  where you can check-out <br /> using your Froggies Token!{" "}
+                  <span className="underline">Sharing value</span> <br /> By
+                  marketing and developing of our &apos;Ultimate
+                  Destination&apos; project, the universe <br /> will be
+                  enlightened with our plans, all eyes will be on FROGGIES
+                  Token. <br />
                   <br />
-                  <br /> Full Booster Launch <br /> The future release of our
-                  entertainment platform will be entirely powered by <br />{" "}
-                  $FRGST. A whole FROGGIEVERSE of play to earn gaming systems.
+                  <span className="underline">Valued on all planets</span>{" "}
+                  <br /> We will continue collaborations with third parties to
+                  turn FROGGIES Token into a <br /> means of real-life payments.
+                  Envision online stores where you can check-out <br /> using
+                  your Froggies Token! <br />
+                  <br />
+                  <span className="underline">
+                    Full Booster Launch
+                  </span> <br /> The future release of our entertainment
+                  platform will be entirely powered by <br /> $FRGST. A whole
+                  FROGGIEVERSE of play to earn gaming systems.
                 </p>
               </div>
             </div>
