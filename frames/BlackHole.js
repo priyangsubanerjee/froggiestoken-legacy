@@ -55,7 +55,7 @@ function BlackHole() {
                   alt=""
                 />
                 <div className="w-[30%]">
-                  <img src="/images/buy.png" alt="" />
+                  <img src="/partners/buy.png" alt="" />
                 </div>
                 <div className="ml-6">
                   <h1 className="font-bold uppercase">BUY</h1>
@@ -74,8 +74,8 @@ function BlackHole() {
                 />
                 <div className="w-[30%]">
                   <img
-                    src="/images/interstellar.png"
-                    className="-mt-1"
+                    src="/partners/interstellar.png"
+                    className="mt-2 h-20"
                     alt=""
                   />
                 </div>
@@ -94,7 +94,7 @@ function BlackHole() {
                 alt=""
               />
               <div className="w-[30%]">
-                <img src="/images/manifesto.png" className="mt-5" alt="" />
+                <img src="/partners/manifesto.png" className="mt-5" alt="" />
               </div>
               <Link href="/Manifesto">
                 <div className="ml-6">
@@ -113,7 +113,7 @@ function BlackHole() {
                   alt=""
                 />
                 <div className="w-[30%]">
-                  <img src="/images/astronomics.png" alt="" />
+                  <img src="/partners/astronomics.png" alt="" />
                 </div>
                 <div className="ml-6">
                   <h1 className="font-bold uppercase">Astronomics</h1>
@@ -138,7 +138,7 @@ function BlackHole() {
                   alt=""
                 />
                 <div className="w-[30%]">
-                  <img src="/images/buy.png" alt="" />
+                  <img src="/partners/buy.png" alt="" />
                 </div>
                 <div className="ml-6">
                   <h1 className="font-bold uppercase">BUY</h1>
@@ -157,7 +157,7 @@ function BlackHole() {
                 />
                 <div className="w-[30%]">
                   <img
-                    src="/images/interstellar.png"
+                    src="/partners/interstellar.png"
                     className="-mt-1"
                     alt=""
                   />
@@ -178,7 +178,7 @@ function BlackHole() {
                   alt=""
                 />
                 <div className="w-[30%]">
-                  <img src="/images/manifesto.png" className="mt-5" alt="" />
+                  <img src="/partners/manifesto.png" className="mt-5" alt="" />
                 </div>
                 <div className="ml-6">
                   <h1 className="font-bold uppercase">Manifesto</h1>
@@ -196,7 +196,7 @@ function BlackHole() {
                   alt=""
                 />
                 <div className="w-[30%]">
-                  <img src="/images/astronomics.png" alt="" />
+                  <img src="/partners/astronomics.png" alt="" />
                 </div>
                 <div className="ml-6">
                   <h1 className="font-bold uppercase">Astronomics</h1>
