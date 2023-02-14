@@ -26,7 +26,7 @@ function Audience() {
           date="16th Jan 2023"
         />
         <Completed
-          name="CoinMarketCap and Coingecko listing g"
+          name="CoinMarketCap and Coingecko listing"
           date="16th Jan 2023"
         />
         <Completed

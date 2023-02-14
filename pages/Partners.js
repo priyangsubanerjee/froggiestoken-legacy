@@ -188,7 +188,7 @@ function Partners() {
           <div className="absolute bottom-0 inset-x-0 h-44 bg-gradient-to-t from-white to-transparent z-10"></div>
         </div>
         <div className="lg:hidden mt-10">
-          <Marquee gradient={false} speed={20}>
+          <Marquee gradient={false} speed={15}>
             <div>
               <img
                 src="/partners/yahoo.png"
@@ -198,7 +198,7 @@ function Partners() {
             </div>
             <div>
               <img
-                src="/partners/yahoo_m.png"
+                src="/partners/yahoo_m.svg"
                 className="h-24 grayscale"
                 alt=""
               />
