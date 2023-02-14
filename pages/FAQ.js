@@ -5,14 +5,6 @@ import Navbar from "@/components/Navbar";
 function FAQ() {
   const [state, setState] = useState(null);
 
-  const questions = [
-    {
-      index: 1,
-      question: "",
-      answer: "",
-    },
-  ];
-
   return (
     <div id="scrollContent" className="h-screen overflow-auto bg-primaryBg">
       <Navbar />
@@ -95,7 +87,7 @@ function FAQ() {
             }
           />
           <Panel
-            index={5}
+            n={5}
             state={state}
             setState={setState}
             question={
@@ -134,17 +126,7 @@ function FAQ() {
               </div>
             }
           />
-          <Panel
-            index={6}
-            state={state}
-            setState={setState}
-            question={
-              "How to fix the 'insufficient output' error on Pancakeswap?"
-            }
-            answer={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eos perspiciatis aliquam nisi. Quas odio eos laudantium eveniet at soluta voluptatibus exercitationem tempora, accusamus harum minima voluptas in modi excepturi ratione aliquam recusandae distinctio cum a mollitia porro provident enim impedit non. Cum, hic modi. Praesentium necessitatibus consectetur saepe ducimus placeat veritatis perspiciatis modi dolores at eos aliquid quibusdam dignissimos iste autem magni omnis cupiditate repellat, laborum aut! Doloremque ipsum accusantium saepe doloribus a explicabo sapiente sint eaque maiores, unde nulla nihil quisquam harum quo dolorum perferendis vitae impedit sed. Ex ab voluptas, cumque voluptate sit aperiam debitis consequatur officia."
-            }
-          />
+
           <Panel
             index={7}
             state={state}
@@ -192,7 +174,7 @@ function FAQ() {
             }
           />
           <Panel
-            index={7}
+            index={9}
             state={state}
             setState={setState}
             question={"How can I help?"}
@@ -201,7 +183,7 @@ function FAQ() {
             }
           />
           <Panel
-            index={7}
+            index={10}
             state={state}
             setState={setState}
             question={"How do I see $FRGST in my wallet?"}
@@ -220,7 +202,7 @@ function FAQ() {
             }
           />
           <Panel
-            index={7}
+            index={11}
             state={state}
             setState={setState}
             question={"How can I get free $FRGST?"}
@@ -252,7 +234,7 @@ function FAQ() {
             }
           />
           <Panel
-            index={7}
+            index={12}
             state={state}
             setState={setState}
             question={
