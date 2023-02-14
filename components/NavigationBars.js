@@ -35,7 +35,9 @@ function NavigationBars({ active, totalBars }) {
             >
               01
             </p>
-            <p className="uppercase text-xs font-poppins">About us</p>
+            <p className="uppercase font-medium text-xs font-poppins">
+              About us
+            </p>
           </div>
         </a>
         <a
@@ -52,7 +54,7 @@ function NavigationBars({ active, totalBars }) {
             >
               02
             </p>
-            <p className="uppercase text-xs font-poppins">Team</p>
+            <p className="uppercase font-medium text-xs font-poppins">Team</p>
           </div>
         </a>
         <a
@@ -69,7 +71,9 @@ function NavigationBars({ active, totalBars }) {
             >
               03
             </p>
-            <p className="uppercase text-xs font-poppins">Audience</p>
+            <p className="uppercase font-medium text-xs font-poppins">
+              Audience
+            </p>
           </div>
         </a>
         <a
@@ -86,7 +90,9 @@ function NavigationBars({ active, totalBars }) {
             >
               04
             </p>
-            <p className="uppercase text-xs font-poppins">Black Hole</p>
+            <p className="uppercase font-medium text-xs font-poppins">
+              Black Hole
+            </p>
           </div>
         </a>
       </div>
