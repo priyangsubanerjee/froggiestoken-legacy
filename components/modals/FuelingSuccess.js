@@ -96,7 +96,7 @@ function FuelingSuccess({
               <div>
                 <div className="flex items-center font-poppins text-white space-x-2">
                   <span className="underline">Release the satellites</span>
-                  <span className="bg-[#6978FF] px-4 rounded-full">
+                  <span className="bg-[#6978FF] px-4 rounded-full hidden">
                     Upcoming
                   </span>
                 </div>

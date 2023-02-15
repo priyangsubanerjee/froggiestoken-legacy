@@ -94,9 +94,7 @@ function ExpandedNav({ setExpandedOpen }) {
                   <Link href={"/Sitemap"}>Sitemap</Link>
                 </li>
                 <li>
-                  <Link target={"_blank"} href={`/Astronomics`}>
-                    Astronomics
-                  </Link>
+                  <Link href={`/Astronomics`}>Astronomics</Link>
                 </li>
                 <li>
                   <Link href={`/FAQ`}>FAQ</Link>
