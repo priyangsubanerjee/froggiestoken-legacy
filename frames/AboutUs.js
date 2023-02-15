@@ -17,9 +17,22 @@ function AboutUs() {
         <br />
         We are still here, and ready to provide the market with a Second Gen
         Memecoin. Our ultimate destination is Moon, and to assure our landing
-        zone in Space we build on community, utility and usability. Froggies is
-        an open community and drive a free market. Our team is devoted to
-        delivering the best to our holders, and securing a long-term project.
+        zone in Space we build on community,{" "}
+        <span className="inline-flex items-center relative text-black w-32 ml-1">
+          <span className="flex z-10 items-center font-poppins">
+            <span>utility & usability</span>
+          </span>
+          <span className="absolute top-[1px] -left-2 w-auto">
+            <img
+              src="/images/textScribbleVector.png"
+              className="w-44 h-6 z-0"
+              alt=""
+            />
+          </span>
+        </span>
+        . Froggies is an open community and drive a free market. Our team is
+        devoted to delivering the best to our holders, and securing a long-term
+        project.
       </p>
       <div className="text-xs lg:text-sm flex items-baseline mt-10 whitespace-nowrap font-poppins">
         <span>Join us while we build on common goals .</span>

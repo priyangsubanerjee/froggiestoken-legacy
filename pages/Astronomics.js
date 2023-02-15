@@ -5,6 +5,7 @@ import axios from "axios";
 
 function Astronomics() {
   const [burntAmount, setBurntAmount] = useState(0);
+
   useEffect(() => {
     (async () => {
       const axiosResponse = await axios.request({
