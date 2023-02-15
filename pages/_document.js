@@ -6,6 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+        <link rel="apple-touch-icon" href="/images/logoSecondary.png" />
       </Head>
       <body>
         <Main />
