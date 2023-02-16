@@ -34,7 +34,7 @@ function AboutUs() {
         devoted to delivering the best to our holders, and securing a long-term
         project.
       </p>
-      <div className="text-xs lg:text-sm flex items-baseline mt-10 whitespace-nowrap font-poppins">
+      <div className="text-xs lg:text-sm hidden lg:flex items-baseline mt-10 whitespace-nowrap font-poppins">
         <span>Join us while we build on common goals .</span>
         <div className="w-20 h-[1px] bg-white"></div>
         <a className="lg:inline-block hidden" href="#2">
