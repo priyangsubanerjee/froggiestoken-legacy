@@ -35,7 +35,7 @@ function Audience() {
         />
         <Completed name="Create our 3D mascot: Froggie" date="16th Jan 2023" />
         <InProgress
-          name=" P2E Mobile comparability and Connect Wallet integration"
+          name="P2E Mobile compatability and Wallet Connect integration"
           date="16th Jan 2023"
         />
         <InProgress
