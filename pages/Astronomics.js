@@ -14,10 +14,14 @@ function Astronomics() {
         url: "https://frog-web-scraper.vercel.app/",
       });
       const circulatingSupply = axiosResponse.data.circulatingSupply;
-      const burntAmount = 100000000000000000000000000000 - circulatingSupply;
-      const percentageBurnt =
-        (burntAmount / 100000000000000000000000000000) * 100;
-      setBurntAmount(percentageBurnt.toFixed(2));
+      // first 3 digits of circulating supply
+      const firstThreeDigits = circulatingSupply.toString().slice(0, 3);
+      const amt = 1000 - parseInt(firstThreeDigits);
+      // put decimal after 2nd digit
+      const burntAmt = `${amt.toString().slice(0, 2)}.${amt
+        .toString()
+        .slice(2, 3)}`;
+      setBurntAmount(burntAmt);
     })();
   }, []);
 
