@@ -23,11 +23,7 @@ function AboutUs() {
             <span>utility & usability</span>
           </span>
           <span className="absolute top-[1px] -left-2 w-auto">
-            <img
-              src="/images/textScribbleVector.png"
-              className="w-44 h-6 z-0"
-              alt=""
-            />
+            <img src="/vector4.png" className="w-44 h-6 z-0" alt="" />
           </span>
         </span>
         . Froggies is an open community and drive a free market. Our team is
