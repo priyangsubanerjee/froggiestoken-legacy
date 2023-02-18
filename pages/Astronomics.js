@@ -5,6 +5,7 @@ import axios from "axios";
 
 function Astronomics() {
   const [burntAmount, setBurntAmount] = useState(0);
+  const [countDown, setCountDown] = useState(0);
 
   useEffect(() => {
     (async () => {
@@ -18,6 +19,30 @@ function Astronomics() {
         (burntAmount / 100000000000000000000000000000) * 100;
       setBurntAmount(percentageBurnt.toFixed(2));
     })();
+  }, []);
+
+  const countDownTimer = () => {
+    const launchDate = new Date("October 24, 2022 00:00:00").getTime();
+    const now = new Date().getTime();
+    const distance = launchDate - now;
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    setCountDown(
+      `${Math.abs(days)} days : ${Math.abs(hours)} hrs : ${Math.abs(
+        minutes
+      )} mins`
+    );
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      countDownTimer();
+    }, 1000);
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -46,10 +71,10 @@ function Astronomics() {
               100 Quadrillion
             </h1>
             <h2 className="text-white font-bold text-sm lg:text-base">
-              Launch date - 24/10/23
+              Launch date - 24/10/22
             </h2>
             <h1 className="font-extrabold text-base lg:text-xl uppercase text-secondaryGrey font-berlin">
-              246 Days : 6 hrs : 17 mins
+              {countDown}
             </h1>
           </div>
           <div className="w-[200px] h-[100px] lg:w-[300px] lg:h-[140px] border border-[#DCDCDC] rounded-md flex flex-col items-center justify-center relative">

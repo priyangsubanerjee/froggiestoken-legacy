@@ -46,7 +46,7 @@ function ExpandedNav({ setExpandedOpen }) {
           <Menu>
             <Menu.Button>Buy</Menu.Button>
             <Menu.Items>
-              <ul className="text-xs text-primaryGrey space-y-5 mt-5 bg-white/10 p-5">
+              <ul className="text-xs text-primaryGrey space-y-5 mt-5 bg-white/10 rounded-md p-5">
                 <li>
                   <Link
                     href={
@@ -84,7 +84,7 @@ function ExpandedNav({ setExpandedOpen }) {
           <Menu>
             <Menu.Button>More</Menu.Button>
             <Menu.Items>
-              <ul className="text-xs text-primaryGrey space-y-5 mt-5 bg-white/10 p-5">
+              <ul className="text-xs text-primaryGrey space-y-5 mt-5 bg-white/10 rounded-md p-5">
                 <li>
                   <Link href={"/Partners"}>
                     <span>Partners</span>
