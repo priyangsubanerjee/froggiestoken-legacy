@@ -11,17 +11,10 @@ function Astronomics() {
     (async () => {
       const axiosResponse = await axios.request({
         method: "GET",
-        url: "https://frog-web-scraper.vercel.app/",
+        url: "/api/get/circulatingSupply",
       });
-      const circulatingSupply = axiosResponse.data.circulatingSupply;
-      // first 3 digits of circulating supply
-      const firstThreeDigits = circulatingSupply.toString().slice(0, 3);
-      const amt = 1000 - parseInt(firstThreeDigits);
-      // put decimal after 2nd digit
-      const burntAmt = `${amt.toString().slice(0, 2)}.${amt
-        .toString()
-        .slice(2, 3)}`;
-      setBurntAmount("36.3");
+      const { circulatingSupply } = axiosResponse.data;
+      setBurntAmount(circulatingSupply);
     })();
   }, []);
 
