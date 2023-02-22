@@ -34,6 +34,9 @@ function Audience() {
           date="16th Jan 2023"
         />
         <Completed name="Create our 3D mascot: Froggie" date="16th Jan 2023" />
+        <Completed name="Milestone: 2,000 $FRGST holders" date="21 Feb 2023" />
+        <Completed name="Kill one zero" date="22 Feb 2023" />
+        <Completed name="Staking contract development" date="20 Feb 2023" />
 
         <InProgress
           name="Milestone: 5,000 $FRGST holders"
@@ -43,12 +46,6 @@ function Audience() {
           name="P2E Mobile compatability and Wallet Connect integration"
           date="16th Jan 2023"
         />
-        <InProgress
-          name="Milestone: 2,000 $FRGST holders"
-          date="16th Jan 2023"
-        />
-        <InProgress name="Kill one zero" date="16th Jan 2023" />
-        <InProgress name="Staking contract development" date="16th Jan 2023" />
         <InProgress
           name="Increasing marketing opportunities"
           date="16th Jan 2023"
