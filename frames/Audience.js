@@ -8,7 +8,7 @@ function Audience() {
   return (
     <div className="lg:w-[60%] lg:p-32 ">
       <h2 className="hidden lg:block text-primaryGrey text-sm font-medium">
-        AUDIENCE
+        PROGRESS
       </h2>
       <div className="relative mt-5">
         <h1 className="text-2xl lg:text-7xl font-extrabold text-white leading-[1.3] font-berlin">
@@ -34,6 +34,11 @@ function Audience() {
           date="16th Jan 2023"
         />
         <Completed name="Create our 3D mascot: Froggie" date="16th Jan 2023" />
+
+        <InProgress
+          name="Milestone: 5,000 $FRGST holders"
+          date="16th Jan 2023"
+        />
         <InProgress
           name="P2E Mobile compatability and Wallet Connect integration"
           date="16th Jan 2023"

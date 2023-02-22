@@ -12,7 +12,9 @@ function InProgress({ name, date }) {
           <h1 className="font-poppins text-white  text-xs lg:text-base">
             {name}
           </h1>
-          <p className="text-[10px] lg:text-sm text-secondaryGrey">{date}</p>
+          <p className="text-[10px] hidden lg:text-sm text-secondaryGrey">
+            {date}
+          </p>
         </div>
       </div>
     </div>

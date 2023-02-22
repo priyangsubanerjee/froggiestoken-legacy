@@ -21,7 +21,7 @@ function Astronomics() {
       const burntAmt = `${amt.toString().slice(0, 2)}.${amt
         .toString()
         .slice(2, 3)}`;
-      setBurntAmount(burntAmt);
+      setBurntAmount("36.3");
     })();
   }, []);
 
