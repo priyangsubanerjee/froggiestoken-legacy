@@ -92,7 +92,7 @@ function Astronomics() {
           </div>
         </div>
         <div className="mt-10">
-          <p className="text-tertiaryGrey text-center">
+          <p className="text-tertiaryGrey text-center lg:text-left">
             Binance Smart Chain Contract :
             <span className="font-medium inline-flex items-center justify-center">
               <span className="w-[250px] text-ellipsis overflow-hidden whitespace-nowrap">

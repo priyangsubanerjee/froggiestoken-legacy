@@ -72,7 +72,7 @@ function NavigationBars({ active, totalBars }) {
               03
             </p>
             <p className="uppercase font-medium text-xs font-poppins">
-              Audience
+              Progress
             </p>
           </div>
         </a>
