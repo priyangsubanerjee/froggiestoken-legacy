@@ -92,17 +92,19 @@ function Astronomics() {
           </div>
         </div>
         <div className="mt-10">
-          <p className="text-tertiaryGrey">
+          <p className="text-tertiaryGrey text-center">
             Binance Smart Chain Contract :
-            <span className="font-medium inline-flex items-center">
-              0x7029994f28fd39ff934A96b25591D250A2183f67
+            <span className="font-medium inline-flex items-center justify-center">
+              <span className="w-[250px] text-ellipsis overflow-hidden whitespace-nowrap">
+                0x7029994f28fd39ff934A96b25591D250A2183f67
+              </span>
               <span
                 onClick={() => {
                   const copyText = "0x7029994f28fd39ff934A96b25591D250A2183f67";
                   navigator.clipboard.writeText(copyText);
                   alert("Copied !");
                 }}
-                className="text-white ml-2 cursor-pointer"
+                className="text-white ml-4 cursor-pointer"
               >
                 <iconify-icon
                   height="20"
