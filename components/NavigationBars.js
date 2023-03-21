@@ -19,13 +19,13 @@ function NavigationBars({ active, totalBars }) {
         })}
       </div>
       <div
-        className={`fixed inset-x-0 bottom-5 h-fit w-full z-10 lg:hidden flex items-center justify-around text-white overflow-hidden`}
+        className={`fixed inset-x-0 bottom-0 h-fit w-full z-10 lg:hidden flex px-4 py-5 space-x-5 scrollbar-hide bg-[#19192e] text-white overflow-auto`}
       >
         <a
           href="#1"
           className={`${
             active == 1 ? "bg-white text-black" : "bg-[#030835] text-white"
-          }  px-5 py-2 rounded-md text-center transition-all`}
+          }  px-5 py-2 rounded-md text-center transition-all shrink-0`}
         >
           <div className="space-y-1">
             <p
@@ -44,7 +44,7 @@ function NavigationBars({ active, totalBars }) {
           href="#2"
           className={`${
             active == 2 ? "bg-white text-black" : "bg-[#030835] text-white"
-          }  px-5 py-2 rounded-md text-center transition-all`}
+          }  px-5 py-2 rounded-md text-center transition-all shrink-0`}
         >
           <div className="space-y-1">
             <p
@@ -80,7 +80,7 @@ function NavigationBars({ active, totalBars }) {
           href="#4"
           className={`${
             active == 4 ? "bg-white text-black" : "bg-[#030835] text-white"
-          }  px-3 py-2 rounded-md text-center transition-all`}
+          }  px-3 py-2 rounded-md text-center transition-all shrink-0`}
         >
           <div className="space-y-1">
             <p
@@ -89,6 +89,25 @@ function NavigationBars({ active, totalBars }) {
               }`}
             >
               04
+            </p>
+            <p className="uppercase font-medium text-xs font-poppins">
+              Black Hole
+            </p>
+          </div>
+        </a>
+        <a
+          href="#5"
+          className={`${
+            active == 5 ? "bg-white text-black" : "bg-[#030835] text-white"
+          }  px-3 py-2 rounded-md text-center transition-all shrink-0`}
+        >
+          <div className="space-y-1">
+            <p
+              className={`text-xs ${
+                active == 5 ? "text-black/60" : "text-secondaryGrey"
+              }`}
+            >
+              05
             </p>
             <p className="uppercase font-medium text-xs font-poppins">
               Black Hole
