@@ -11,11 +11,12 @@ function FrameTool() {
     <div className="">
       <div className=" mb-10 z-0">
         <div className="lg:p-32 flex lg:flex-row flex-col lg:items-center">
-          <div className="lg:mx-10 lg:w-[400px] hidden lg:block rounded-2xl">
+          <div className="lg:mx-10 lg:w-[400px] hidden lg:block rounded-2xl bg-transparent">
             <iframe
               frameborder="0"
               height="700"
               width="100%"
+              className=" bg-transparent rounded-3xl"
               allow="clipboard-read ; clipboard-write; web-share ; accelerometer; autoplay ; camera; gyroscope ; payment; geolocation *"
               src="https://flooz.trade/embed/trade?swapDisabled=false&swapToTokenAddress=0x7029994f28fd39ff934A96b25591D250A2183f67&swapLockToToken=true&onRampDisabled=false&onRampAsDefault=true&onRampDefaultAmount=200&network=bsc&lightMode=false&primaryColor=%235e38f4&roundedCorners=28&padding=20"
             ></iframe>
