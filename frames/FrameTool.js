@@ -28,14 +28,14 @@ function FrameTool() {
                   className="hover:text-slate-400 cursor-pointer"
                   href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB"
                 >
-                  <div className="h-32 w-32 relative flex flex-col items-center justify-center">
+                  <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32 w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
                       className="absolute inset-0 h-full w-full object-cover"
                       alt=""
                     />
                     <img
-                      className="h-16 grayscale group-hover:grayscale-0"
+                      className="h-10 lg:h-16 grayscale group-hover:grayscale-0"
                       src="/pancakeIcon.png"
                       alt=""
                     />
@@ -64,13 +64,17 @@ function FrameTool() {
                   className="hover:text-slate-400 cursor-pointer"
                   href="https://poocoin.app/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f7"
                 >
-                  <div className="h-32 w-32 relative flex flex-col items-center justify-center">
+                  <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
                       className="absolute inset-0 h-full w-full object-cover"
                       alt=""
                     />
-                    <img className="h-16 grayscale" src="/pooIcon.png" alt="" />
+                    <img
+                      className="h-10 lg:h-16 grayscale"
+                      src="/pooIcon.png"
+                      alt=""
+                    />
                     <div className="flex items-center justify-center mt-4">
                       <span className="text-xs font-poppins font-medium">
                         Poocoin
@@ -99,14 +103,14 @@ function FrameTool() {
                   href="https://www.coinstore.com/#/spot/FRGSTUSDT"
                   className="mr-7 mt-5 hover:text-slate-400 cursor-pointer"
                 >
-                  <div className="h-32 w-32 relative flex flex-col items-center justify-center">
+                  <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
                       className="absolute inset-0 h-full w-full object-cover"
                       alt=""
                     />
                     <img
-                      className="h-16 grayscale"
+                      className="h-10 lg:h-16 grayscale"
                       src="/coinstore.png"
                       alt=""
                     />
@@ -135,13 +139,17 @@ function FrameTool() {
                   href="https://p2pb2b.com/trade/FRGST_USDT/"
                   className="mr-7 mt-5 hover:text-slate-400 cursor-pointer"
                 >
-                  <div className="h-32 w-32 relative flex flex-col items-center justify-center">
+                  <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
                       className="absolute inset-0 h-full w-full object-cover"
                       alt=""
                     />
-                    <img className="h-16 grayscale" src="/p28.png" alt="" />
+                    <img
+                      className="h-10 lg:h-16 grayscale"
+                      src="/p28.png"
+                      alt=""
+                    />
                     <div className="flex items-center justify-center mt-4">
                       <span className="text-xs font-poppins font-medium">
                         P2B
@@ -167,14 +175,14 @@ function FrameTool() {
                   href="https://coinsbit.io/trade_classic/FRGST_mUSDT"
                   className="mr-7 mt-5 hover:text-slate-400 cursor-pointer"
                 >
-                  <div className="h-32 w-32 relative flex flex-col items-center justify-center">
+                  <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
                       className="absolute inset-0 h-full w-full object-cover"
                       alt=""
                     />
                     <img
-                      className="h-16 grayscale"
+                      className="h-10 lg:h-16 grayscale"
                       src="/coinsbit.png"
                       alt=""
                     />

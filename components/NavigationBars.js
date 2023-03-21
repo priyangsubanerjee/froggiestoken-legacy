@@ -19,7 +19,7 @@ function NavigationBars({ active, totalBars }) {
         })}
       </div>
       <div
-        className={`fixed inset-x-0 bottom-0 h-fit w-full z-10 lg:hidden flex px-4 py-5 space-x-5 scrollbar-hide bg-[#19192e] text-white overflow-auto`}
+        className={`fixed inset-x-0 bottom-0 h-fit w-full z-10 lg:hidden flex px-4 py-3 space-x-5 scrollbar-hide bg-[#19192e] text-white overflow-auto`}
       >
         <a
           href="#1"
