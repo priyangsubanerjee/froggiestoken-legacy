@@ -91,7 +91,7 @@ function NavigationBars({ active, totalBars }) {
               04
             </p>
             <p className="uppercase font-medium text-xs font-poppins">
-              Black Hole
+              Calculator
             </p>
           </div>
         </a>
