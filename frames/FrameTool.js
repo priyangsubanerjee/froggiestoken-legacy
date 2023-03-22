@@ -9,7 +9,7 @@ function FrameTool() {
   const [calculatorOpen, setCalculatorOpen] = useState(false);
   return (
     <div id="scrollContent" className="">
-      <div className="pb-28 z-0">
+      <div className="pb-44 lg:pb-0 z-0">
         <div className="lg:p-32 flex lg:flex-row flex-col lg:items-center">
           <div className="lg:mx-10 lg:w-[400px] lg:block rounded-2xl bg-transparent mt-10 lg:mt-0 mb-20 lg:mb-0">
             <iframe
