@@ -16,7 +16,7 @@ export default function Home() {
     <div className="h-screen bg-primaryBg overflow-hidden">
       <Navbar hideOnScroll={true} />
       <Vector active={active} />
-      <NavigationBars active={active} totalBars={5} />
+      <NavigationBars active={active} totalBars={4} />
       <div
         id="scrollContent"
         className="overflow-y-hidden overflow-x-auto lg:overflow-auto fixed inset-0 scroll-smooth h-full w-full z-0 flex lg:block snap-x lg:snap-none scrollbar-hide"
@@ -30,10 +30,10 @@ export default function Home() {
         <ContentBox count={3} active={active} setActive={setActive}>
           <Audience />
         </ContentBox>
-        <ContentBox count={4} active={active} setActive={setActive}>
+        {/* <ContentBox count={4} active={active} setActive={setActive}>
           <FrameTool />
-        </ContentBox>
-        <ContentBox count={5} active={active} setActive={setActive}>
+        </ContentBox> */}
+        <ContentBox count={4} active={active} setActive={setActive}>
           <BlackHole />
         </ContentBox>
       </div>

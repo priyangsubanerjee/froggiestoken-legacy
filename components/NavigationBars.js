@@ -76,7 +76,7 @@ function NavigationBars({ active, totalBars }) {
             </p>
           </div>
         </a>
-        <a
+        {/* <a
           href="#4"
           className={`${
             active == 4 ? "bg-white text-black" : "bg-[#030835] text-white"
@@ -94,9 +94,9 @@ function NavigationBars({ active, totalBars }) {
               Buy
             </p>
           </div>
-        </a>
+        </a> */}
         <a
-          href="#5"
+          href="#4"
           className={`${
             active == 5 ? "bg-white text-black" : "bg-[#030835] text-white"
           }  px-3 py-2 rounded-md text-center transition-all shrink-0`}
@@ -104,10 +104,10 @@ function NavigationBars({ active, totalBars }) {
           <div className="space-y-1">
             <p
               className={`text-xs ${
-                active == 5 ? "text-black/60" : "text-secondaryGrey"
+                active == 4 ? "text-black/60" : "text-secondaryGrey"
               }`}
             >
-              05
+              04
             </p>
             <p className="uppercase font-medium text-xs font-poppins">
               Black Hole
