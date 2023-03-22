@@ -90,9 +90,7 @@ function NavigationBars({ active, totalBars }) {
             >
               04
             </p>
-            <p className="uppercase font-medium text-xs font-poppins">
-              Calculator
-            </p>
+            <p className="uppercase font-medium text-xs font-poppins">Buy</p>
           </div>
         </a>
         <a
