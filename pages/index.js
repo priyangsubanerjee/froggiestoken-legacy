@@ -19,7 +19,7 @@ export default function Home() {
       <NavigationBars active={active} totalBars={5} />
       <div
         id="scrollContent"
-        className="overflow-y-hidden lg:overflow-auto fixed inset-0 scroll-smooth h-full w-full z-0 flex lg:block snap-x lg:snap-none scrollbar-hide"
+        className="overflow-y-hidden overflow-x-auto lg:overflow-auto fixed inset-0 scroll-smooth h-full w-full z-0 flex lg:block snap-x lg:snap-none scrollbar-hide"
       >
         <ContentBox count={1} active={active} setActive={setActive}>
           <AboutUs />

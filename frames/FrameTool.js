@@ -8,7 +8,7 @@ import axios from "axios";
 function FrameTool() {
   const [calculatorOpen, setCalculatorOpen] = useState(false);
   return (
-    <div className="">
+    <div id="scrollContent" className="">
       <div className="pb-28 z-0">
         <div className="lg:p-32 flex lg:flex-row flex-col lg:items-center">
           <div className="lg:mx-10 lg:w-[400px] lg:block rounded-2xl bg-transparent mt-10 lg:mt-0 mb-20 lg:mb-0">
@@ -26,6 +26,8 @@ function FrameTool() {
               <h1 className="text-base font-bold">BUY ON DEX</h1>
               <div className="flex items-center space-x-7 mt-3">
                 <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
                   className="hover:text-pink-400 cursor-pointer"
                   href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB"
                 >
@@ -62,6 +64,8 @@ function FrameTool() {
                   </div>
                 </a>
                 <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
                   className="hover:text-pink-400 cursor-pointer"
                   href="https://poocoin.app/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f7"
                 >
@@ -101,6 +105,8 @@ function FrameTool() {
               <h1 className="text-base font-bold mt-7">BUY ON CEX</h1>
               <div className="flex items-center flex-wrap">
                 <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
                   href="https://www.coinstore.com/#/spot/FRGSTUSDT"
                   className="mr-7 mt-5 hover:text-pink-400 cursor-pointer"
                 >
@@ -137,6 +143,8 @@ function FrameTool() {
                   </div>
                 </a>
                 <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
                   href="https://p2pb2b.com/trade/FRGST_USDT/"
                   className="mr-7 mt-5 hover:text-pink-400 cursor-pointer"
                 >
@@ -173,6 +181,8 @@ function FrameTool() {
                   </div>
                 </a>
                 <a
+                  target={"_blank"}
+                  rel="noopener noreferrer"
                   href="https://coinsbit.io/trade_classic/FRGST_mUSDT"
                   className="mr-7 mt-5 hover:text-pink-400 cursor-pointer"
                 >
@@ -189,7 +199,7 @@ function FrameTool() {
                     />
                     <div className="flex items-center justify-center mt-4">
                       <span className="text-xs font-poppins font-medium">
-                        Poocoin
+                        Coinsbit
                       </span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
