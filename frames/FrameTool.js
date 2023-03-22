@@ -34,7 +34,7 @@ function FrameTool() {
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32 w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover rounded-md "
                       alt=""
                     />
                     <img
@@ -72,7 +72,7 @@ function FrameTool() {
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover rounded-md "
                       alt=""
                     />
                     <img
@@ -113,7 +113,7 @@ function FrameTool() {
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover rounded-md "
                       alt=""
                     />
                     <img
@@ -151,7 +151,7 @@ function FrameTool() {
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover rounded-md "
                       alt=""
                     />
                     <img
@@ -189,7 +189,7 @@ function FrameTool() {
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
                       src="/frameIconBg.png"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      className="absolute inset-0 h-full w-full object-cover rounded-md "
                       alt=""
                     />
                     <img
