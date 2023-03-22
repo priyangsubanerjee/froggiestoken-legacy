@@ -9,9 +9,9 @@ function FrameTool() {
   const [calculatorOpen, setCalculatorOpen] = useState(false);
   return (
     <div className="">
-      <div className=" mb-10 z-0">
+      <div className="pb-28 z-0">
         <div className="lg:p-32 flex lg:flex-row flex-col lg:items-center">
-          <div className="lg:mx-10 lg:w-[400px] hidden lg:block rounded-2xl bg-transparent">
+          <div className="lg:mx-10 lg:w-[400px] lg:block rounded-2xl bg-transparent mt-10 lg:mt-0 mb-20 lg:mb-0">
             <iframe
               frameborder="0"
               height="700"
@@ -26,7 +26,7 @@ function FrameTool() {
               <h1 className="text-base font-bold">BUY ON DEX</h1>
               <div className="flex items-center space-x-7 mt-3">
                 <a
-                  className="hover:text-slate-400 cursor-pointer"
+                  className="hover:text-pink-400 cursor-pointer"
                   href="https://pancakeswap.finance/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f67&inputCurrency=BNB"
                 >
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32 w-32 relative flex flex-col items-center justify-center">
@@ -62,7 +62,7 @@ function FrameTool() {
                   </div>
                 </a>
                 <a
-                  className="hover:text-slate-400 cursor-pointer"
+                  className="hover:text-pink-400 cursor-pointer"
                   href="https://poocoin.app/swap?outputCurrency=0x7029994f28fd39ff934A96b25591D250A2183f7"
                 >
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
@@ -102,7 +102,7 @@ function FrameTool() {
               <div className="flex items-center flex-wrap">
                 <a
                   href="https://www.coinstore.com/#/spot/FRGSTUSDT"
-                  className="mr-7 mt-5 hover:text-slate-400 cursor-pointer"
+                  className="mr-7 mt-5 hover:text-pink-400 cursor-pointer"
                 >
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
@@ -138,7 +138,7 @@ function FrameTool() {
                 </a>
                 <a
                   href="https://p2pb2b.com/trade/FRGST_USDT/"
-                  className="mr-7 mt-5 hover:text-slate-400 cursor-pointer"
+                  className="mr-7 mt-5 hover:text-pink-400 cursor-pointer"
                 >
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
@@ -174,7 +174,7 @@ function FrameTool() {
                 </a>
                 <a
                   href="https://coinsbit.io/trade_classic/FRGST_mUSDT"
-                  className="mr-7 mt-5 hover:text-slate-400 cursor-pointer"
+                  className="mr-7 mt-5 hover:text-pink-400 cursor-pointer"
                 >
                   <div className="h-fit py-4 rounded-md overflow-hidden lg:h-32  w-32 relative flex flex-col items-center justify-center">
                     <img
