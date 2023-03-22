@@ -6,11 +6,14 @@ import { Popover } from "@headlessui/react";
 import InterStellarParentModal from "./InterStellarParentModal";
 import { Fade } from "react-awesome-reveal";
 import ExpandedNav from "./ExpandedNav";
+import { useRouter } from "next/router";
 
 function Navbar({ theme = "dark", hideOnScroll = true }) {
+  const router = useRouter();
   const [show, setShow] = useState(true);
   const [ExpandedOpen, setExpandedOpen] = useState(false);
   const [inerStellarModalOpen, setInerStellarModalOpen] = useState(false);
+  const [isFirstPage, setIsFirstPage] = useState(false);
 
   const controlNavbar = () => {
     if (hideOnScroll === false) return setShow(true);
@@ -21,6 +24,14 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
       setShow(true);
     }
   };
+
+  useEffect(() => {
+    if (router.pathname === "/") {
+      setIsFirstPage(true);
+    } else {
+      setIsFirstPage(false);
+    }
+  }, [router.pathname]);
 
   useEffect(() => {
     if (hideOnScroll === false) return setShow(true);
@@ -40,7 +51,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
       className={`flex items-center px-5 lg:px-[80px] py-4 lg:py-0 top-0 inset-x-0 lg:top-10 z-20 fixed ${
         show ? "opacity-100" : " lg:opacity-0"
       }  inset-x-0 transition-all ${
-        theme == "dark" ? " bg-[#010417]" : "bg-transparent"
+        theme == "dark" && isFirstPage ? " bg-[#010417]" : "bg-transparent"
       } lg:bg-transparent`}
     >
       <Link href={"/"}>
