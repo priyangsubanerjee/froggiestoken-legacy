@@ -13,7 +13,7 @@ function ContentBox({ count, active, setActive, children }) {
     }
   }, [isInView]);
   return (
-    <div className="lg:min-h-screen lg:h-fit h-screen overflow-auto text-white relative lg:p-7 px-5 py-5 w-full shrink-0 max-w-full snap-start lg:snap-none scrollbar-hide">
+    <div className="lg:min-h-screen lg:h-fit h-screen overflow-auto text-white relative lg:p-7 px-5 py-5 w-full shrink-0 max-w-full snap-mandatory snap-start lg:snap-none scrollbar-hide">
       <div id={`${count}`} className="">
         <div
           ref={ref}
