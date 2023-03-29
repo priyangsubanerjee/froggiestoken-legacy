@@ -29,19 +29,27 @@ function ExpandedNav({ setExpandedOpen }) {
             <img src="/images/everlostLight.svg" className="h-4" alt="" />
           </Link>
         </li>
+        <li className="flex space-x-2 items-center">
+          <Link href={""}>
+            <img
+              src="/images/richribbit.png"
+              className="w-8 grayscale"
+              alt=""
+            />
+          </Link>
+          <span>Staking (soon)</span>
+        </li>
 
         <li>
           <Link href={"/InterStellar"}>
             <span>Interstellar</span>
           </Link>
         </li>
-
         <li>
           <Link href={"/Manifesto"}>
             <span>Manifesto</span>
           </Link>
         </li>
-
         <li className="text-center">
           <Menu>
             <Menu.Button>Buy</Menu.Button>
@@ -74,12 +82,14 @@ function ExpandedNav({ setExpandedOpen }) {
             </Menu.Items>
           </Menu>
         </li>
-
         <li>
-          <Link href={"/InterStellar"}></Link>
-          <span>Stellar Doc</span>
+          <Link
+            href={
+              "https://drive.google.com/file/d/1oGf6O1Gq6YJOdazJBeHxGK_3wO3OZSTM/view?usp=sharing"
+            }
+          ></Link>
+          <span>Whitepaper</span>
         </li>
-
         <li className="text-center">
           <Menu>
             <Menu.Button>More</Menu.Button>
@@ -135,7 +145,6 @@ function ExpandedNav({ setExpandedOpen }) {
             </Menu.Items>
           </Menu>
         </li>
-
         <li>
           <Link target={"_blank"} href={"https://t.me/officialfroggiestoken"}>
             <div>
@@ -143,7 +152,6 @@ function ExpandedNav({ setExpandedOpen }) {
             </div>
           </Link>
         </li>
-
         <li>
           <Link
             target={"_blank"}

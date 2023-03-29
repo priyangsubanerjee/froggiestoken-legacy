@@ -65,7 +65,30 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
           alt=""
         />
       </Link>
-      <ul className="ml-auto text-white hidden lg:flex space-x-4">
+      <ul className="ml-auto text-white hidden lg:flex space-x-4 font-poppins text-sm font-medium">
+        <li
+          onClick={() => {
+            setInerStellarModalOpen(true);
+          }}
+          className={`${
+            theme == "dark"
+              ? "bg-[#020726] text-white"
+              : "bg-[#E4E8FF] text-black"
+          } rounded-md py-1 px-4 flex items-center font-semibold`}
+        >
+          <Link target={"_blank"} href={""}>
+            {theme === "dark" ? (
+              <img
+                src="/images/richribbit.png"
+                className="grayscale w-8 mr-1"
+                alt=""
+              />
+            ) : (
+              <img src="/images/richribbit.png" alt="" />
+            )}
+          </Link>
+          <span>Staking (soon)</span>
+        </li>
         <li
           className={`${
             theme == "dark"
@@ -81,6 +104,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
             )}
           </Link>
         </li>
+
         <li
           onClick={() => {
             setInerStellarModalOpen(true);
@@ -147,15 +171,22 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
             </Popover.Panel>
           </Popover>
         </li>
-        <li
-          className={`${
-            theme == "dark"
-              ? "bg-[#020726] text-white"
-              : "bg-[#E4E8FF] text-black"
-          } rounded-md py-1 px-4 flex items-center`}
+        <Link
+          target={"_blank"}
+          href={
+            "https://drive.google.com/file/d/1oGf6O1Gq6YJOdazJBeHxGK_3wO3OZSTM/view?usp=sharing"
+          }
         >
-          <span>Stellar Doc</span>
-        </li>
+          <li
+            className={`${
+              theme == "dark"
+                ? "bg-[#020726] text-white"
+                : "bg-[#E4E8FF] text-black"
+            } rounded-md py-1 px-4 flex items-center h-full`}
+          >
+            <span>Whitepaper</span>
+          </li>
+        </Link>
         <li
           className={`${
             theme == "dark"
