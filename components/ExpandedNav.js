@@ -30,7 +30,7 @@ function ExpandedNav({ setExpandedOpen }) {
           </Link>
         </li>
         <li className="flex space-x-2 items-center">
-          <Link href={""}>
+          <Link href={"https://froggiestoken.com"}>
             <img
               src="/images/richribbit.png"
               className="w-8 grayscale"

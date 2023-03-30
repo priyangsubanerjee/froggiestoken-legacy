@@ -76,7 +76,7 @@ function Navbar({ theme = "dark", hideOnScroll = true }) {
               : "bg-[#E4E8FF] text-black"
           } rounded-md py-1 px-4 flex items-center font-semibold`}
         >
-          <Link target={"_blank"} href={""}>
+          <Link target={"_blank"} href={"https://froggiestoken.com"}>
             {theme === "dark" ? (
               <img
                 src="/images/richribbit.png"
