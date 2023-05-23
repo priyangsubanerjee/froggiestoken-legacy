@@ -91,12 +91,23 @@ export default function Home() {
               </p>
               <div className="mt-5 border rounded-md flex items-center justify-between text-white p-3">
                 <span className="w-[80%] text-ellipsis whitespace-nowrap overflow-hidden">
-                  0x7029994f28fd39ff934A96b25591D250A2183f67
+                  0x440758dF68A045DB3F2517257F27330a12438656
                 </span>
-                <iconify-icon
-                  className="mr-5 block"
-                  icon="ph:copy"
-                ></iconify-icon>
+                <button
+                  onClick={() => {
+                    try {
+                      navigator.clipboard.writeText(
+                        "0x440758dF68A045DB3F2517257F27330a12438656"
+                      );
+                      alert("Copied to clipboard");
+                    } catch (error) {}
+                  }}
+                >
+                  <iconify-icon
+                    className="mr-5 block"
+                    icon="ph:copy"
+                  ></iconify-icon>
+                </button>
               </div>
 
               <p className="text-white font-medium font-poppins text-sm mt-5 leading-6">
